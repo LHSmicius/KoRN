@@ -4501,7 +4501,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ErgoGrid:SolderJumper"
+		(property "Footprint" "KoRN:SolderJumper"
 			(at 187.96 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -4541,7 +4541,7 @@
 			(uuid "04300ca5-ee07-425e-977a-0bee21492308")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678/0b5705a6-92dd-47ca-aedd-78d65c23ceb0"
 					(reference "JP37")
 					(unit 1)
@@ -4644,7 +4644,7 @@
 			(uuid "642d52a8-ba66-4932-b007-c90645167adc")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678/0b5705a6-92dd-47ca-aedd-78d65c23ceb0"
 					(reference "D13")
 					(unit 1)
@@ -4746,7 +4746,7 @@
 			(uuid "505b1aa7-7a87-4ef0-8a56-d6c446814899")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678/0b5705a6-92dd-47ca-aedd-78d65c23ceb0"
 					(reference "D23")
 					(unit 1)
@@ -4826,7 +4826,7 @@
 			(uuid "b0b2825c-fc15-45d3-b9ae-efff4c7e7fc1")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678/0b5705a6-92dd-47ca-aedd-78d65c23ceb0"
 					(reference "SW19")
 					(unit 1)
@@ -4868,7 +4868,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "ErgoGrid:SK6812_mini-e_rgb_reversible"
+		(property "Footprint" "KoRN:SK6812_mini-e_rgb_reversible"
 			(at 153.67 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -4916,7 +4916,7 @@
 			(uuid "09d0b59b-58ea-44db-8b15-af0b1c99c91f")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678/0b5705a6-92dd-47ca-aedd-78d65c23ceb0"
 					(reference "LD19")
 					(unit 1)
@@ -5019,7 +5019,7 @@
 			(uuid "1f44be14-50f9-4622-9eca-64618c98a2da")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678/0b5705a6-92dd-47ca-aedd-78d65c23ceb0"
 					(reference "D6")
 					(unit 1)
@@ -5061,7 +5061,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "ErgoGrid:SK6812_mini-e_rgb_reversible"
+		(property "Footprint" "KoRN:SK6812_mini-e_rgb_reversible"
 			(at 77.47 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -5109,7 +5109,7 @@
 			(uuid "0397c116-5c3a-41d7-9b4d-06f358e08dbc")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678/0b5705a6-92dd-47ca-aedd-78d65c23ceb0"
 					(reference "LD4")
 					(unit 1)
@@ -5191,7 +5191,7 @@
 			(uuid "ca751172-9f4b-47e9-8f27-f2de8a1c3d81")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678/0b5705a6-92dd-47ca-aedd-78d65c23ceb0"
 					(reference "C9")
 					(unit 1)
@@ -5232,7 +5232,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ErgoGrid:SK6812_mini-e_rgb_reversible"
+		(property "Footprint" "KoRN:SK6812_mini-e_rgb_reversible"
 			(at 181.61 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -5280,7 +5280,7 @@
 			(uuid "bdd7c215-8a3c-48d8-a07d-4be8ee7af41d")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678/0b5705a6-92dd-47ca-aedd-78d65c23ceb0"
 					(reference "LD22")
 					(unit 1)
@@ -5322,7 +5322,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "ErgoGrid:SK6812_mini-e_rgb_reversible"
+		(property "Footprint" "KoRN:SK6812_mini-e_rgb_reversible"
 			(at 115.57 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -5370,7 +5370,7 @@
 			(uuid "3887b40e-152b-48b2-a6fb-13f00a585553")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678/0b5705a6-92dd-47ca-aedd-78d65c23ceb0"
 					(reference "LD10")
 					(unit 1)
@@ -5452,7 +5452,7 @@
 			(uuid "e96d7347-776e-4a76-a4b6-20d4f799de6f")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678/0b5705a6-92dd-47ca-aedd-78d65c23ceb0"
 					(reference "C10")
 					(unit 1)
@@ -5494,7 +5494,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "ErgoGrid:SK6812_mini-e_rgb_reversible"
+		(property "Footprint" "KoRN:SK6812_mini-e_rgb_reversible"
 			(at 179.07 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -5542,7 +5542,7 @@
 			(uuid "17804477-1161-4a94-8180-565aaa3d00cd")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678/0b5705a6-92dd-47ca-aedd-78d65c23ceb0"
 					(reference "LD21")
 					(unit 1)
@@ -5622,7 +5622,7 @@
 			(uuid "4334bcf6-8db8-41cd-9464-c960fe5be216")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678/0b5705a6-92dd-47ca-aedd-78d65c23ceb0"
 					(reference "SW2")
 					(unit 1)
@@ -5725,7 +5725,7 @@
 			(uuid "9260727d-b924-4176-97cf-69522cd4b7dc")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678/0b5705a6-92dd-47ca-aedd-78d65c23ceb0"
 					(reference "D18")
 					(unit 1)
@@ -5828,7 +5828,7 @@
 			(uuid "1b33b60b-a3a5-4f8a-869a-9d70cf304f34")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678/0b5705a6-92dd-47ca-aedd-78d65c23ceb0"
 					(reference "D11")
 					(unit 1)
@@ -5931,7 +5931,7 @@
 			(uuid "5f71d072-8685-4c02-b155-a13f49d678ad")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678/0b5705a6-92dd-47ca-aedd-78d65c23ceb0"
 					(reference "D20")
 					(unit 1)
@@ -5973,7 +5973,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "ErgoGrid:SK6812_mini-e_rgb_reversible"
+		(property "Footprint" "KoRN:SK6812_mini-e_rgb_reversible"
 			(at 179.07 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -6021,7 +6021,7 @@
 			(uuid "785ab941-b2fb-4af1-8af4-a508f84f22a5")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678/0b5705a6-92dd-47ca-aedd-78d65c23ceb0"
 					(reference "LD23")
 					(unit 1)
@@ -6101,7 +6101,7 @@
 			(uuid "c0110c1d-ca98-4a88-b303-8f8e5fa029ad")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678/0b5705a6-92dd-47ca-aedd-78d65c23ceb0"
 					(reference "SW4")
 					(unit 1)
@@ -6181,7 +6181,7 @@
 			(uuid "b2824c54-fd8a-45ea-87c1-f9839511822f")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678/0b5705a6-92dd-47ca-aedd-78d65c23ceb0"
 					(reference "SW3")
 					(unit 1)
@@ -6284,7 +6284,7 @@
 			(uuid "05b29eca-bcf5-4032-a628-7885ffa60b91")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678/0b5705a6-92dd-47ca-aedd-78d65c23ceb0"
 					(reference "D8")
 					(unit 1)
@@ -6387,7 +6387,7 @@
 			(uuid "0ecf5eeb-559c-408c-9e7b-065d45b3a880")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678/0b5705a6-92dd-47ca-aedd-78d65c23ceb0"
 					(reference "D17")
 					(unit 1)
@@ -6490,7 +6490,7 @@
 			(uuid "f1e859ac-3ba2-435e-8cf0-1d730e07655c")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678/0b5705a6-92dd-47ca-aedd-78d65c23ceb0"
 					(reference "D15")
 					(unit 1)
@@ -6570,7 +6570,7 @@
 			(uuid "19bc3ccd-68e2-4429-beed-0467a17c1bb9")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678/0b5705a6-92dd-47ca-aedd-78d65c23ceb0"
 					(reference "SW1")
 					(unit 1)
@@ -6650,7 +6650,7 @@
 			(uuid "ef0ba0f9-0714-4e5f-83d5-ab7dfb156341")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678/0b5705a6-92dd-47ca-aedd-78d65c23ceb0"
 					(reference "SW10")
 					(unit 1)
@@ -6730,7 +6730,7 @@
 			(uuid "bbdf56b0-d03d-4bf5-a6a9-feb34f3b2224")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678/0b5705a6-92dd-47ca-aedd-78d65c23ceb0"
 					(reference "SW6")
 					(unit 1)
@@ -6772,7 +6772,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "ErgoGrid:SK6812_mini-e_rgb_reversible"
+		(property "Footprint" "KoRN:SK6812_mini-e_rgb_reversible"
 			(at 58.42 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -6820,7 +6820,7 @@
 			(uuid "75479345-1019-4b54-bc12-1abc32a70a6b")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678/0b5705a6-92dd-47ca-aedd-78d65c23ceb0"
 					(reference "LD2")
 					(unit 1)
@@ -6862,7 +6862,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "ErgoGrid:SK6812_mini-e_rgb_reversible"
+		(property "Footprint" "KoRN:SK6812_mini-e_rgb_reversible"
 			(at 153.67 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -6910,7 +6910,7 @@
 			(uuid "b82e5fc2-4f71-4eb3-a70e-d266409a3f48")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678/0b5705a6-92dd-47ca-aedd-78d65c23ceb0"
 					(reference "LD18")
 					(unit 1)
@@ -6952,7 +6952,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "ErgoGrid:SK6812_mini-e_rgb_reversible"
+		(property "Footprint" "KoRN:SK6812_mini-e_rgb_reversible"
 			(at 153.67 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -7000,7 +7000,7 @@
 			(uuid "07e850d9-b22f-4221-98fc-cc0f2fee6fe6")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678/0b5705a6-92dd-47ca-aedd-78d65c23ceb0"
 					(reference "LD17")
 					(unit 1)
@@ -7103,7 +7103,7 @@
 			(uuid "b018d68b-21e6-4a3b-8b67-28e7f0b4f145")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678/0b5705a6-92dd-47ca-aedd-78d65c23ceb0"
 					(reference "D9")
 					(unit 1)
@@ -7183,7 +7183,7 @@
 			(uuid "8a4e9c0f-e757-4d51-a284-9c3e7169662e")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678/0b5705a6-92dd-47ca-aedd-78d65c23ceb0"
 					(reference "SW8")
 					(unit 1)
@@ -7286,7 +7286,7 @@
 			(uuid "ca3cce91-6405-4a8f-9dae-0009149e2f32")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678/0b5705a6-92dd-47ca-aedd-78d65c23ceb0"
 					(reference "D5")
 					(unit 1)
@@ -7328,7 +7328,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "ErgoGrid:SK6812_mini-e_rgb_reversible"
+		(property "Footprint" "KoRN:SK6812_mini-e_rgb_reversible"
 			(at 134.62 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -7376,7 +7376,7 @@
 			(uuid "7e19197e-d0b0-4e0c-bf82-41a145d8ac20")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678/0b5705a6-92dd-47ca-aedd-78d65c23ceb0"
 					(reference "LD13")
 					(unit 1)
@@ -7453,7 +7453,7 @@
 			(uuid "eb7cbdf6-5810-4920-a140-75e319d68ee6")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678/0b5705a6-92dd-47ca-aedd-78d65c23ceb0"
 					(reference "#PWR028")
 					(unit 1)
@@ -7533,7 +7533,7 @@
 			(uuid "c683b900-c87e-451d-9121-4cbd1c72b759")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678/0b5705a6-92dd-47ca-aedd-78d65c23ceb0"
 					(reference "SW20")
 					(unit 1)
@@ -7575,7 +7575,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "ErgoGrid:SK6812_mini-e_rgb_reversible"
+		(property "Footprint" "KoRN:SK6812_mini-e_rgb_reversible"
 			(at 96.52 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -7623,7 +7623,7 @@
 			(uuid "0a1e47ad-5139-4b6e-8ad0-88abb286a9f9")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678/0b5705a6-92dd-47ca-aedd-78d65c23ceb0"
 					(reference "LD9")
 					(unit 1)
@@ -7726,7 +7726,7 @@
 			(uuid "f33d8cb9-7aa2-49fc-b05f-9143474f8966")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678/0b5705a6-92dd-47ca-aedd-78d65c23ceb0"
 					(reference "D3")
 					(unit 1)
@@ -7808,7 +7808,7 @@
 			(uuid "94302d59-e9d3-4504-bf0a-eec5da65eefd")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678/0b5705a6-92dd-47ca-aedd-78d65c23ceb0"
 					(reference "C11")
 					(unit 1)
@@ -7850,7 +7850,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "ErgoGrid:SK6812_mini-e_rgb_reversible"
+		(property "Footprint" "KoRN:SK6812_mini-e_rgb_reversible"
 			(at 115.57 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -7898,7 +7898,7 @@
 			(uuid "5551c4d3-4680-43bc-956e-d94f66b36166")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678/0b5705a6-92dd-47ca-aedd-78d65c23ceb0"
 					(reference "LD11")
 					(unit 1)
@@ -7978,7 +7978,7 @@
 			(uuid "76f04fa4-2074-41d1-b24b-c8a52aa173e4")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678/0b5705a6-92dd-47ca-aedd-78d65c23ceb0"
 					(reference "SW21")
 					(unit 1)
@@ -8058,7 +8058,7 @@
 			(uuid "0e2cfb19-2d1b-4ae7-9012-a77b923d3336")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678/0b5705a6-92dd-47ca-aedd-78d65c23ceb0"
 					(reference "SW11")
 					(unit 1)
@@ -8161,7 +8161,7 @@
 			(uuid "bb209188-9c5e-479e-99af-daa9b8af22aa")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678/0b5705a6-92dd-47ca-aedd-78d65c23ceb0"
 					(reference "D19")
 					(unit 1)
@@ -8203,7 +8203,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "ErgoGrid:SK6812_mini-e_rgb_reversible"
+		(property "Footprint" "KoRN:SK6812_mini-e_rgb_reversible"
 			(at 134.62 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -8251,7 +8251,7 @@
 			(uuid "3c10c686-16e9-41a2-bc21-dd85e3690e40")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678/0b5705a6-92dd-47ca-aedd-78d65c23ceb0"
 					(reference "LD15")
 					(unit 1)
@@ -8354,7 +8354,7 @@
 			(uuid "65aaa4fa-9b2e-4d6e-9a02-0141353a785a")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678/0b5705a6-92dd-47ca-aedd-78d65c23ceb0"
 					(reference "D16")
 					(unit 1)
@@ -8396,7 +8396,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "ErgoGrid:SK6812_mini-e_rgb_reversible"
+		(property "Footprint" "KoRN:SK6812_mini-e_rgb_reversible"
 			(at 58.42 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -8444,7 +8444,7 @@
 			(uuid "c6d6b477-ce65-4c36-8cea-c9cb13d2f426")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678/0b5705a6-92dd-47ca-aedd-78d65c23ceb0"
 					(reference "LD1")
 					(unit 1)
@@ -8524,7 +8524,7 @@
 			(uuid "b513461f-539f-4cc8-a32d-ee0731e348af")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678/0b5705a6-92dd-47ca-aedd-78d65c23ceb0"
 					(reference "SW9")
 					(unit 1)
@@ -8604,7 +8604,7 @@
 			(uuid "80767ddb-194d-4130-85fa-8fe8354a3155")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678/0b5705a6-92dd-47ca-aedd-78d65c23ceb0"
 					(reference "SW22")
 					(unit 1)
@@ -8646,7 +8646,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "ErgoGrid:SK6812_mini-e_rgb_reversible"
+		(property "Footprint" "KoRN:SK6812_mini-e_rgb_reversible"
 			(at 58.42 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -8694,7 +8694,7 @@
 			(uuid "5352e42d-cdbb-40c0-81bc-43d06b879f99")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678/0b5705a6-92dd-47ca-aedd-78d65c23ceb0"
 					(reference "LD3")
 					(unit 1)
@@ -8774,7 +8774,7 @@
 			(uuid "5a2ec65f-27b0-4008-8ee8-6fc8b45386ff")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678/0b5705a6-92dd-47ca-aedd-78d65c23ceb0"
 					(reference "SW15")
 					(unit 1)
@@ -8877,7 +8877,7 @@
 			(uuid "77879c13-bf9f-4c2f-9347-62bfa24921aa")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678/0b5705a6-92dd-47ca-aedd-78d65c23ceb0"
 					(reference "D10")
 					(unit 1)
@@ -8959,7 +8959,7 @@
 			(uuid "ab991be8-1969-4854-a702-d6622d1a3e95")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678/0b5705a6-92dd-47ca-aedd-78d65c23ceb0"
 					(reference "C8")
 					(unit 1)
@@ -9001,7 +9001,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "ErgoGrid:SK6812_mini-e_rgb_reversible"
+		(property "Footprint" "KoRN:SK6812_mini-e_rgb_reversible"
 			(at 96.52 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -9049,7 +9049,7 @@
 			(uuid "a9c8cbc4-40ca-45e7-9d58-ba56b009d669")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678/0b5705a6-92dd-47ca-aedd-78d65c23ceb0"
 					(reference "LD8")
 					(unit 1)
@@ -9090,7 +9090,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ErgoGrid:SK6812_mini-e_rgb_reversible"
+		(property "Footprint" "KoRN:SK6812_mini-e_rgb_reversible"
 			(at 201.93 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -9138,7 +9138,7 @@
 			(uuid "81640c3d-bc05-40a4-9007-99fa94f7ffbc")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678/0b5705a6-92dd-47ca-aedd-78d65c23ceb0"
 					(reference "LD24")
 					(unit 1)
@@ -9179,7 +9179,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ErgoGrid:SolderJumper"
+		(property "Footprint" "KoRN:SolderJumper"
 			(at 187.96 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -9219,7 +9219,7 @@
 			(uuid "ca3eac7f-6dfe-4aea-8658-01ff11ce54a4")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678/0b5705a6-92dd-47ca-aedd-78d65c23ceb0"
 					(reference "JP38")
 					(unit 1)
@@ -9322,7 +9322,7 @@
 			(uuid "13542732-7700-4f95-b492-2b2651c47397")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678/0b5705a6-92dd-47ca-aedd-78d65c23ceb0"
 					(reference "D21")
 					(unit 1)
@@ -9399,7 +9399,7 @@
 			(uuid "e01059d3-b3b7-4a41-afee-dbbcda08cce7")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678/0b5705a6-92dd-47ca-aedd-78d65c23ceb0"
 					(reference "#PWR031")
 					(unit 1)
@@ -9441,7 +9441,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "ErgoGrid:SK6812_mini-e_rgb_reversible"
+		(property "Footprint" "KoRN:SK6812_mini-e_rgb_reversible"
 			(at 96.52 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -9489,7 +9489,7 @@
 			(uuid "848724fa-bf17-4685-85f4-4a0c409bed2e")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678/0b5705a6-92dd-47ca-aedd-78d65c23ceb0"
 					(reference "LD7")
 					(unit 1)
@@ -9569,7 +9569,7 @@
 			(uuid "0f667fad-6f3d-4b30-add2-4202058d108b")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678/0b5705a6-92dd-47ca-aedd-78d65c23ceb0"
 					(reference "SW16")
 					(unit 1)
@@ -9661,7 +9661,7 @@
 			(uuid "88c67c9b-a0cf-4923-81ae-fba6a51ac7d1")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678/0b5705a6-92dd-47ca-aedd-78d65c23ceb0"
 					(reference "RE1")
 					(unit 1)
@@ -9764,7 +9764,7 @@
 			(uuid "620017af-1e1f-4db3-aa33-56a10c58cafd")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678/0b5705a6-92dd-47ca-aedd-78d65c23ceb0"
 					(reference "D14")
 					(unit 1)
@@ -9844,7 +9844,7 @@
 			(uuid "501f5dcb-2705-4f23-9806-6d96f1ab7db0")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678/0b5705a6-92dd-47ca-aedd-78d65c23ceb0"
 					(reference "SW18")
 					(unit 1)
@@ -9947,7 +9947,7 @@
 			(uuid "f68aa12f-32c3-463a-9dd2-cd0d96ce7e5d")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678/0b5705a6-92dd-47ca-aedd-78d65c23ceb0"
 					(reference "D22")
 					(unit 1)
@@ -9989,7 +9989,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "ErgoGrid:SK6812_mini-e_rgb_reversible"
+		(property "Footprint" "KoRN:SK6812_mini-e_rgb_reversible"
 			(at 153.67 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -10037,7 +10037,7 @@
 			(uuid "6628f2ea-b94d-4a4d-abff-710b6e1a6651")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678/0b5705a6-92dd-47ca-aedd-78d65c23ceb0"
 					(reference "LD20")
 					(unit 1)
@@ -10117,7 +10117,7 @@
 			(uuid "e1449d73-f582-472b-bf1d-7be528adfa5b")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678/0b5705a6-92dd-47ca-aedd-78d65c23ceb0"
 					(reference "SW17")
 					(unit 1)
@@ -10197,7 +10197,7 @@
 			(uuid "764aa25e-fc50-4798-a840-77d2b576f088")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678/0b5705a6-92dd-47ca-aedd-78d65c23ceb0"
 					(reference "SW12")
 					(unit 1)
@@ -10275,7 +10275,7 @@
 			(uuid "371a0380-8c2a-4613-bb4b-939df1792a8b")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678/0b5705a6-92dd-47ca-aedd-78d65c23ceb0"
 					(reference "#PWR029")
 					(unit 1)
@@ -10317,7 +10317,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "ErgoGrid:SK6812_mini-e_rgb_reversible"
+		(property "Footprint" "KoRN:SK6812_mini-e_rgb_reversible"
 			(at 115.57 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -10365,7 +10365,7 @@
 			(uuid "c8e041d5-a612-4fb4-afce-46c637319f1b")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678/0b5705a6-92dd-47ca-aedd-78d65c23ceb0"
 					(reference "LD12")
 					(unit 1)
@@ -10407,7 +10407,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "ErgoGrid:SK6812_mini-e_rgb_reversible"
+		(property "Footprint" "KoRN:SK6812_mini-e_rgb_reversible"
 			(at 77.47 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -10455,7 +10455,7 @@
 			(uuid "7d8d30b9-fa72-42e5-aeff-9079cf0707c4")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678/0b5705a6-92dd-47ca-aedd-78d65c23ceb0"
 					(reference "LD5")
 					(unit 1)
@@ -10535,7 +10535,7 @@
 			(uuid "003a1d3d-bbcd-44f5-bbd6-b166d7aa7d07")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678/0b5705a6-92dd-47ca-aedd-78d65c23ceb0"
 					(reference "SW14")
 					(unit 1)
@@ -10638,7 +10638,7 @@
 			(uuid "552b2c23-a4c3-4ba6-afdc-93d47667ff35")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678/0b5705a6-92dd-47ca-aedd-78d65c23ceb0"
 					(reference "D2")
 					(unit 1)
@@ -10741,7 +10741,7 @@
 			(uuid "ed8933eb-9815-41e6-864d-131e0e74f625")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678/0b5705a6-92dd-47ca-aedd-78d65c23ceb0"
 					(reference "D12")
 					(unit 1)
@@ -10818,7 +10818,7 @@
 			(uuid "ebd0404a-d102-4791-98c0-c6e602ad1037")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678/0b5705a6-92dd-47ca-aedd-78d65c23ceb0"
 					(reference "#PWR030")
 					(unit 1)
@@ -10921,7 +10921,7 @@
 			(uuid "25f9adda-09c6-415a-a7d1-1efe42dca798")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678/0b5705a6-92dd-47ca-aedd-78d65c23ceb0"
 					(reference "D7")
 					(unit 1)
@@ -10963,7 +10963,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "ErgoGrid:SK6812_mini-e_rgb_reversible"
+		(property "Footprint" "KoRN:SK6812_mini-e_rgb_reversible"
 			(at 134.62 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -11011,7 +11011,7 @@
 			(uuid "c4cc67a1-1580-44e6-92bc-4b871976f831")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678/0b5705a6-92dd-47ca-aedd-78d65c23ceb0"
 					(reference "LD14")
 					(unit 1)
@@ -11091,7 +11091,7 @@
 			(uuid "50ee6f45-23f9-4a74-a478-3962f06baab5")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678/0b5705a6-92dd-47ca-aedd-78d65c23ceb0"
 					(reference "SW5")
 					(unit 1)
@@ -11133,7 +11133,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "ErgoGrid:SK6812_mini-e_rgb_reversible"
+		(property "Footprint" "KoRN:SK6812_mini-e_rgb_reversible"
 			(at 77.47 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -11181,7 +11181,7 @@
 			(uuid "476cd99d-d4f4-41e1-90d5-04c7a427a29c")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678/0b5705a6-92dd-47ca-aedd-78d65c23ceb0"
 					(reference "LD6")
 					(unit 1)
@@ -11284,7 +11284,7 @@
 			(uuid "f39de889-5adc-4bd5-83c3-3ded447d061d")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678/0b5705a6-92dd-47ca-aedd-78d65c23ceb0"
 					(reference "D4")
 					(unit 1)
@@ -11364,7 +11364,7 @@
 			(uuid "cf959385-d1d1-4e1a-93f0-d2857939ae55")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678/0b5705a6-92dd-47ca-aedd-78d65c23ceb0"
 					(reference "SW7")
 					(unit 1)
@@ -11406,7 +11406,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "ErgoGrid:SK6812_mini-e_rgb_reversible"
+		(property "Footprint" "KoRN:SK6812_mini-e_rgb_reversible"
 			(at 134.62 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -11454,7 +11454,7 @@
 			(uuid "b85fd9d7-3a24-40b9-bdf0-8d7848a7b499")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678/0b5705a6-92dd-47ca-aedd-78d65c23ceb0"
 					(reference "LD16")
 					(unit 1)
@@ -11534,7 +11534,7 @@
 			(uuid "14b839a3-fbca-4dfa-a535-2bbcc4ca5e38")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678/0b5705a6-92dd-47ca-aedd-78d65c23ceb0"
 					(reference "SW13")
 					(unit 1)
@@ -11637,7 +11637,7 @@
 			(uuid "b179d768-5249-41d3-afb8-bb4b8330a764")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678/0b5705a6-92dd-47ca-aedd-78d65c23ceb0"
 					(reference "D1")
 					(unit 1)

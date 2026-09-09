@@ -2267,7 +2267,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "ErgoGrid_SymLib:DRV2667"
+		(symbol "KoRN:DRV2667"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -8296,7 +8296,7 @@
 			(uuid "479bf7df-ad20-4d49-bdca-9402fc7d74f2")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678"
 					(reference "#PWR014")
 					(unit 1)
@@ -8338,7 +8338,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ErgoGrid:Joystick_nintendo_switch"
+		(property "Footprint" "KoRN:Joystick_nintendo_switch"
 			(at 54.61 194.31 0)
 			(hide yes)
 			(show_name no)
@@ -8375,7 +8375,7 @@
 			(uuid "94163370-c25e-418f-9ad4-cdb1ad8754da")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678"
 					(reference "H2")
 					(unit 1)
@@ -8453,7 +8453,7 @@
 			(uuid "77ae18b8-a1c3-4795-8bb9-e29fa671f07c")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678"
 					(reference "#PWR021")
 					(unit 1)
@@ -8530,7 +8530,7 @@
 			(uuid "9ef2bfee-3073-4f8b-b186-e4988c3a1d0a")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678"
 					(reference "#PWR03")
 					(unit 1)
@@ -8612,7 +8612,7 @@
 			(uuid "094bdd12-c075-43da-937f-29cb78b60256")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678"
 					(reference "C5")
 					(unit 1)
@@ -8690,7 +8690,7 @@
 			(uuid "6d348cff-f38d-4221-9801-356ab6822412")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678"
 					(reference "#PWR011")
 					(unit 1)
@@ -8767,7 +8767,7 @@
 			(uuid "3044fa02-2853-4db3-afea-0129d1537be5")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678"
 					(reference "#PWR09")
 					(unit 1)
@@ -8845,7 +8845,7 @@
 			(uuid "99833326-2cbf-48ed-820e-8bea3cb554e1")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678"
 					(reference "#PWR010")
 					(unit 1)
@@ -8887,7 +8887,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "ErgoGrid:SolderJumper"
+		(property "Footprint" "KoRN:SolderJumper"
 			(at 176.53 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -8927,7 +8927,7 @@
 			(uuid "2cd05960-cf98-4063-9dfe-2f4b723fa37e")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678"
 					(reference "JP29")
 					(unit 1)
@@ -9005,7 +9005,7 @@
 			(uuid "7357f6b7-a0ab-4019-9345-7a6b78811d1a")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678"
 					(reference "#FLG04")
 					(unit 1)
@@ -9047,7 +9047,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "ErgoGrid:SolderJumper"
+		(property "Footprint" "KoRN:SolderJumper"
 			(at 82.55 185.42 0)
 			(hide yes)
 			(show_name no)
@@ -9087,7 +9087,7 @@
 			(uuid "b93284be-35ab-4cac-8d91-4d50c057ca69")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678"
 					(reference "JP1")
 					(unit 1)
@@ -9129,7 +9129,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ErgoGrid:SolderJumper"
+		(property "Footprint" "KoRN:SolderJumper"
 			(at 85.09 185.42 0)
 			(hide yes)
 			(show_name no)
@@ -9169,7 +9169,7 @@
 			(uuid "59f1e5d9-43b5-4809-9eda-58c1575caafc")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678"
 					(reference "JP2")
 					(unit 1)
@@ -9211,7 +9211,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "ErgoGrid:SolderJumper"
+		(property "Footprint" "KoRN:SolderJumper"
 			(at 189.23 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -9251,7 +9251,7 @@
 			(uuid "b0a287ae-9b76-4b54-89cf-b48c3660512e")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678"
 					(reference "JP34")
 					(unit 1)
@@ -9330,7 +9330,7 @@
 			(uuid "b46a257c-7a19-4fa3-8558-597826879bc6")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678"
 					(reference "J9")
 					(unit 1)
@@ -9439,7 +9439,7 @@
 			(uuid "1013a85f-032d-4d24-857f-d1c2f58eeb15")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678"
 					(reference "J4")
 					(unit 1)
@@ -9481,7 +9481,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ErgoGrid:SolderJumper"
+		(property "Footprint" "KoRN:SolderJumper"
 			(at 140.97 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -9521,7 +9521,7 @@
 			(uuid "3a7997f1-ed2f-4d7a-a6bb-ade67f50d699")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678"
 					(reference "JP12")
 					(unit 1)
@@ -9563,7 +9563,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "ErgoGrid:SolderJumper"
+		(property "Footprint" "KoRN:SolderJumper"
 			(at 125.73 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -9603,7 +9603,7 @@
 			(uuid "55366110-bb1a-4aea-96ac-4827bd68e648")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678"
 					(reference "JP5")
 					(unit 1)
@@ -9643,7 +9643,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ErgoGrid:SolderJumper"
+		(property "Footprint" "KoRN:SolderJumper"
 			(at 142.24 179.07 0)
 			(hide yes)
 			(show_name no)
@@ -9683,7 +9683,7 @@
 			(uuid "7d4b65e7-0074-420c-a484-0c63ceaec46c")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678"
 					(reference "JP16")
 					(unit 1)
@@ -9725,7 +9725,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ErgoGrid:SolderJumper"
+		(property "Footprint" "KoRN:SolderJumper"
 			(at 140.97 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -9765,7 +9765,7 @@
 			(uuid "b081aed4-d65e-4cb4-b52b-47b29420fc12")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678"
 					(reference "JP11")
 					(unit 1)
@@ -9807,7 +9807,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ErgoGrid:SolderJumper"
+		(property "Footprint" "KoRN:SolderJumper"
 			(at 153.67 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -9847,7 +9847,7 @@
 			(uuid "cb2a65c4-dd22-42c1-ac85-42e882f5b33d")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678"
 					(reference "JP23")
 					(unit 1)
@@ -9889,7 +9889,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ErgoGrid:SolderJumper"
+		(property "Footprint" "KoRN:SolderJumper"
 			(at 166.37 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -9929,7 +9929,7 @@
 			(uuid "3e48453b-d67f-435b-b74b-048b05f54b1d")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678"
 					(reference "JP27")
 					(unit 1)
@@ -10021,7 +10021,7 @@
 			(uuid "c9aec145-2fdd-4d45-88b3-bb4366bf31f9")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678"
 					(reference "J7")
 					(unit 1)
@@ -10099,7 +10099,7 @@
 			(uuid "cb050adc-23e3-452a-a4c5-08143f455b18")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678"
 					(reference "#FLG03")
 					(unit 1)
@@ -10141,7 +10141,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ErgoGrid:SolderJumper"
+		(property "Footprint" "KoRN:SolderJumper"
 			(at 128.27 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -10181,7 +10181,7 @@
 			(uuid "34c22928-a628-47e2-a132-8b8d0dae2011")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678"
 					(reference "JP8")
 					(unit 1)
@@ -10223,7 +10223,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "ErgoGrid:SolderJumper"
+		(property "Footprint" "KoRN:SolderJumper"
 			(at 138.43 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -10263,7 +10263,7 @@
 			(uuid "fd1b3627-f00c-4771-8455-5d3aafac7496")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678"
 					(reference "JP10")
 					(unit 1)
@@ -10340,7 +10340,7 @@
 			(uuid "a325b57f-e488-4739-b47d-0f7588b72c7b")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678"
 					(reference "#PWR04")
 					(unit 1)
@@ -10382,7 +10382,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ErgoGrid:SolderJumper"
+		(property "Footprint" "KoRN:SolderJumper"
 			(at 191.77 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -10422,7 +10422,7 @@
 			(uuid "9e9210f8-a5fa-41df-acbb-82fd6d7852ff")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678"
 					(reference "JP35")
 					(unit 1)
@@ -10464,7 +10464,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ErgoGrid:SolderJumper"
+		(property "Footprint" "KoRN:SolderJumper"
 			(at 191.77 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -10504,7 +10504,7 @@
 			(uuid "afd9c76d-2148-421c-91f6-c0322630f2a3")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678"
 					(reference "JP36")
 					(unit 1)
@@ -10546,7 +10546,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "ErgoGrid:SolderJumper"
+		(property "Footprint" "KoRN:SolderJumper"
 			(at 138.43 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -10586,7 +10586,7 @@
 			(uuid "175678db-71d4-4854-8b44-31863ba81903")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678"
 					(reference "JP9")
 					(unit 1)
@@ -10663,7 +10663,7 @@
 			(uuid "fb983379-f40c-4268-a35e-056199b6c6c5")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678"
 					(reference "#PWR025")
 					(unit 1)
@@ -10740,7 +10740,7 @@
 			(uuid "f8011803-bee0-4a18-93d3-d4fbfc60fdd2")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678"
 					(reference "J5")
 					(unit 1)
@@ -10782,7 +10782,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "ErgoGrid:SolderJumper"
+		(property "Footprint" "KoRN:SolderJumper"
 			(at 125.73 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -10822,7 +10822,7 @@
 			(uuid "40c1e695-8562-4ebb-a3b1-85f5146064ac")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678"
 					(reference "JP6")
 					(unit 1)
@@ -10904,7 +10904,7 @@
 			(uuid "f5eb16f6-24cf-47de-9ea5-0768b0563ff2")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678"
 					(reference "C4")
 					(unit 1)
@@ -10991,7 +10991,7 @@
 			(uuid "9581baed-04a5-4c91-81e3-179155b0c6fa")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678"
 					(reference "J10")
 					(unit 1)
@@ -11033,7 +11033,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ErgoGrid:SolderJumper"
+		(property "Footprint" "KoRN:SolderJumper"
 			(at 166.37 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -11073,7 +11073,7 @@
 			(uuid "641f3a21-e04b-4b2f-8c87-650db651f004")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678"
 					(reference "JP28")
 					(unit 1)
@@ -11150,7 +11150,7 @@
 			(uuid "8915d6da-01a6-4439-8aa5-c45a2ff753cf")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678"
 					(reference "#PWR018")
 					(unit 1)
@@ -11190,7 +11190,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ErgoGrid:SolderJumper"
+		(property "Footprint" "KoRN:SolderJumper"
 			(at 142.24 184.15 0)
 			(hide yes)
 			(show_name no)
@@ -11230,7 +11230,7 @@
 			(uuid "641425ec-6ad6-4657-bfaf-ed3452101069")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678"
 					(reference "JP17")
 					(unit 1)
@@ -11272,7 +11272,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "ErgoGrid:SolderJumper"
+		(property "Footprint" "KoRN:SolderJumper"
 			(at 151.13 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -11312,7 +11312,7 @@
 			(uuid "6aeb43d4-e637-42e0-a81b-4cb7fc882f67")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678"
 					(reference "JP21")
 					(unit 1)
@@ -11394,7 +11394,7 @@
 			(uuid "557ab0f7-39c8-4da8-84bc-c7ef51946fb2")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678"
 					(reference "L1")
 					(unit 1)
@@ -11471,7 +11471,7 @@
 			(uuid "c52cd7f3-12e3-4aa4-894c-8a7a14f78c14")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678"
 					(reference "#PWR01")
 					(unit 1)
@@ -11513,7 +11513,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ErgoGrid:SolderJumper"
+		(property "Footprint" "KoRN:SolderJumper"
 			(at 179.07 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -11553,7 +11553,7 @@
 			(uuid "ae3a0118-8c6f-426e-b575-59f42d175b54")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678"
 					(reference "JP31")
 					(unit 1)
@@ -11630,7 +11630,7 @@
 			(uuid "1ecd8c1e-40dc-4114-9e7f-fe9aaeac7e21")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678"
 					(reference "#PWR017")
 					(unit 1)
@@ -11670,7 +11670,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ErgoGrid:SolderJumper"
+		(property "Footprint" "KoRN:SolderJumper"
 			(at 90.17 180.34 0)
 			(hide yes)
 			(show_name no)
@@ -11710,7 +11710,7 @@
 			(uuid "fde0b25e-5d2a-4201-b3e0-1d17e16d547b")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678"
 					(reference "JP4")
 					(unit 1)
@@ -11750,7 +11750,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ErgoGrid:SolderJumper"
+		(property "Footprint" "KoRN:SolderJumper"
 			(at 142.24 176.53 0)
 			(hide yes)
 			(show_name no)
@@ -11790,7 +11790,7 @@
 			(uuid "a9f7602d-4a10-4638-ac40-0fd6d92702d5")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678"
 					(reference "JP15")
 					(unit 1)
@@ -11867,7 +11867,7 @@
 			(uuid "5c644d9c-5e58-44d7-8450-2f8d7742f32f")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678"
 					(reference "#PWR023")
 					(unit 1)
@@ -11944,7 +11944,7 @@
 			(uuid "b8cddb5c-469c-4be0-aeb8-46b4b7e36397")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678"
 					(reference "#PWR05")
 					(unit 1)
@@ -11986,7 +11986,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ErgoGrid:SolderJumper"
+		(property "Footprint" "KoRN:SolderJumper"
 			(at 153.67 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -12026,7 +12026,7 @@
 			(uuid "a289b12d-b19a-43b8-825e-f7bcb2aed50b")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678"
 					(reference "JP24")
 					(unit 1)
@@ -12035,7 +12035,7 @@
 		)
 	)
 	(symbol
-		(lib_id "ErgoGrid_SymLib:DRV2667")
+		(lib_id "KoRN:DRV2667")
 		(at 232.41 137.16 0)
 		(unit 1)
 		(body_style 1)
@@ -12163,7 +12163,7 @@
 			(uuid "7c679a41-9720-45b3-8394-c798774221b9")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678"
 					(reference "U1")
 					(unit 1)
@@ -12203,7 +12203,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ErgoGrid:SolderJumper"
+		(property "Footprint" "KoRN:SolderJumper"
 			(at 142.24 186.69 0)
 			(hide yes)
 			(show_name no)
@@ -12243,7 +12243,7 @@
 			(uuid "b2b92cc4-267d-4fa6-8989-3f4683339443")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678"
 					(reference "JP18")
 					(unit 1)
@@ -12320,7 +12320,7 @@
 			(uuid "f5c802c6-0308-4f24-a95e-2399657f41c1")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678"
 					(reference "#FLG01")
 					(unit 1)
@@ -12397,7 +12397,7 @@
 			(uuid "f0495427-a9af-4720-9051-be93a41ae5c0")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678"
 					(reference "#PWR019")
 					(unit 1)
@@ -12439,7 +12439,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "ErgoGrid:SolderJumper"
+		(property "Footprint" "KoRN:SolderJumper"
 			(at 176.53 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -12479,7 +12479,7 @@
 			(uuid "6cb9d5dd-ad4a-4b38-b7f3-ac4bc83d54fd")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678"
 					(reference "JP30")
 					(unit 1)
@@ -12521,7 +12521,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ErgoGrid:SolderJumper"
+		(property "Footprint" "KoRN:SolderJumper"
 			(at 128.27 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -12561,7 +12561,7 @@
 			(uuid "72424a70-878b-4b58-b2da-7fce5ca58a85")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678"
 					(reference "JP7")
 					(unit 1)
@@ -12601,7 +12601,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ErgoGrid:SolderJumper"
+		(property "Footprint" "KoRN:SolderJumper"
 			(at 90.17 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -12641,7 +12641,7 @@
 			(uuid "16e02382-7ff8-4798-9966-66e0648d7b1e")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678"
 					(reference "JP3")
 					(unit 1)
@@ -12682,7 +12682,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ErgoGrid:ProMicro_3pin"
+		(property "Footprint" "KoRN:ProMicro_3pin"
 			(at 25.4 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -12725,7 +12725,7 @@
 			(uuid "18fd3052-c2b8-4004-bc4e-618928af5cb1")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678"
 					(reference "J3")
 					(unit 1)
@@ -12807,7 +12807,7 @@
 			(uuid "9845e3f0-742e-426c-9f13-be2da2a4f8a3")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678"
 					(reference "C3")
 					(unit 1)
@@ -12884,7 +12884,7 @@
 			(uuid "5573a57e-f32f-4982-a303-bd6186f1454b")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678"
 					(reference "#PWR013")
 					(unit 1)
@@ -12961,7 +12961,7 @@
 			(uuid "797e97be-0f87-4b9a-ad62-248bcf695864")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678"
 					(reference "#PWR022")
 					(unit 1)
@@ -13003,7 +13003,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "ErgoGrid:SolderJumper"
+		(property "Footprint" "KoRN:SolderJumper"
 			(at 163.83 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -13043,7 +13043,7 @@
 			(uuid "ef30e4bf-e58a-4484-bfd4-127be8e07b2b")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678"
 					(reference "JP26")
 					(unit 1)
@@ -13126,7 +13126,7 @@
 			(uuid "b48dad87-395a-46bc-8ea8-cef883ec0af6")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678"
 					(reference "S3")
 					(unit 1)
@@ -13167,7 +13167,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ErgoGrid:Joystick_nintendo_switch"
+		(property "Footprint" "KoRN:Joystick_nintendo_switch"
 			(at 33.02 194.31 0)
 			(hide yes)
 			(show_name no)
@@ -13204,7 +13204,7 @@
 			(uuid "ba24ec16-ca81-4c55-aafd-a21de86c95db")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678"
 					(reference "H1")
 					(unit 1)
@@ -13295,7 +13295,7 @@
 			(uuid "231df56b-0097-49c8-ad65-d4953641c2a3")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678"
 					(reference "J6")
 					(unit 1)
@@ -13372,7 +13372,7 @@
 			(uuid "309eb0ff-c04b-45dc-8be1-e85b81f872d5")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678"
 					(reference "#PWR06")
 					(unit 1)
@@ -13449,7 +13449,7 @@
 			(uuid "0e0e1038-6791-4755-b683-0e79fd3c8454")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678"
 					(reference "#PWR012")
 					(unit 1)
@@ -13535,7 +13535,7 @@
 			(uuid "1ad43b2f-ebbb-4992-b907-7288b634f733")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678"
 					(reference "J12")
 					(unit 1)
@@ -13613,7 +13613,7 @@
 			(uuid "33987798-8d5c-4216-b8a4-49628f274319")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678"
 					(reference "#PWR027")
 					(unit 1)
@@ -13690,7 +13690,7 @@
 			(uuid "2aa33048-4462-4102-8988-a6eec71643de")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678"
 					(reference "#PWR08")
 					(unit 1)
@@ -13767,7 +13767,7 @@
 			(uuid "0d60dcbe-555a-4b5d-b58c-f0f666a0c422")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678"
 					(reference "#PWR020")
 					(unit 1)
@@ -13806,7 +13806,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ErgoGrid:ResetButton"
+		(property "Footprint" "KoRN:ResetButton"
 			(at 87.63 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -13849,7 +13849,7 @@
 			(uuid "9cd1e95e-1d75-48e1-b0e7-99d50de77ec1")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678"
 					(reference "S2")
 					(unit 1)
@@ -13891,7 +13891,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "ErgoGrid:SolderJumper"
+		(property "Footprint" "KoRN:SolderJumper"
 			(at 189.23 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -13931,7 +13931,7 @@
 			(uuid "c863b6ec-9421-4605-a1c5-11c2b8a1e9d7")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678"
 					(reference "JP33")
 					(unit 1)
@@ -14012,7 +14012,7 @@
 			(uuid "629ce360-bf90-4965-a60e-89f838ccb77f")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678"
 					(reference "R2")
 					(unit 1)
@@ -14052,7 +14052,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ErgoGrid:SolderJumper"
+		(property "Footprint" "KoRN:SolderJumper"
 			(at 142.24 191.77 0)
 			(hide yes)
 			(show_name no)
@@ -14092,7 +14092,7 @@
 			(uuid "b2aba28e-4c3d-4e5b-b8a2-3d7239e6d058")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678"
 					(reference "JP20")
 					(unit 1)
@@ -14184,7 +14184,7 @@
 			(uuid "62668043-5f03-4189-917c-49c78f2984f1")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678"
 					(reference "J1")
 					(unit 1)
@@ -14224,7 +14224,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ErgoGrid:ResetButton"
+		(property "Footprint" "KoRN:ResetButton"
 			(at 72.39 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -14267,7 +14267,7 @@
 			(uuid "b1d43ad9-8e23-4027-a54a-4bb41b24c914")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678"
 					(reference "S1")
 					(unit 1)
@@ -14345,7 +14345,7 @@
 			(uuid "4a2f80c8-9d34-4e71-8ba5-7344f8a71dbb")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678"
 					(reference "#PWR02")
 					(unit 1)
@@ -14385,7 +14385,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ErgoGrid:SolderJumper"
+		(property "Footprint" "KoRN:SolderJumper"
 			(at 142.24 189.23 0)
 			(hide yes)
 			(show_name no)
@@ -14425,7 +14425,7 @@
 			(uuid "2c8fe9f8-1895-4c36-a904-525f5e90a399")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678"
 					(reference "JP19")
 					(unit 1)
@@ -14467,7 +14467,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "ErgoGrid:SolderJumper"
+		(property "Footprint" "KoRN:SolderJumper"
 			(at 163.83 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -14507,7 +14507,7 @@
 			(uuid "90936a25-5fa6-4a43-a4e3-afd1ee806325")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678"
 					(reference "JP25")
 					(unit 1)
@@ -14584,7 +14584,7 @@
 			(uuid "3cd8814e-954c-4215-9648-abdba149db75")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678"
 					(reference "#PWR024")
 					(unit 1)
@@ -14664,7 +14664,7 @@
 			(uuid "e4651d9b-24f3-4930-a51f-0f6db953b5ef")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678"
 					(reference "C6")
 					(unit 1)
@@ -14747,7 +14747,7 @@
 			(uuid "a9df3fc0-7a15-43e8-8292-54ffc143184a")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678"
 					(reference "S4")
 					(unit 1)
@@ -14789,7 +14789,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ErgoGrid:PiezoDisc_15mm_12mm"
+		(property "Footprint" "KoRN:PiezoDisc_15mm_12mm"
 			(at 260.985 142.24 90)
 			(hide yes)
 			(show_name no)
@@ -14829,7 +14829,7 @@
 			(uuid "2e030a7c-8cd8-40e0-a4a3-6a8e2b3ee17c")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678"
 					(reference "BZ1")
 					(unit 1)
@@ -14939,7 +14939,7 @@
 			(uuid "09b94dce-b36e-44bf-9e91-f8e79954e203")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678"
 					(reference "J8")
 					(unit 1)
@@ -15032,7 +15032,7 @@
 			(uuid "4775ac64-e726-44ae-8663-6e713348c3eb")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678"
 					(reference "J2")
 					(unit 1)
@@ -15072,7 +15072,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ErgoGrid:SolderJumper"
+		(property "Footprint" "KoRN:SolderJumper"
 			(at 142.24 171.45 0)
 			(hide yes)
 			(show_name no)
@@ -15112,7 +15112,7 @@
 			(uuid "55a6b7ef-31b0-479c-b0aa-1772da10afba")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678"
 					(reference "JP13")
 					(unit 1)
@@ -15154,7 +15154,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "ErgoGrid:SolderJumper"
+		(property "Footprint" "KoRN:SolderJumper"
 			(at 151.13 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -15194,7 +15194,7 @@
 			(uuid "b05ff244-80f7-4160-8820-b4b09a480eb2")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678"
 					(reference "JP22")
 					(unit 1)
@@ -15271,7 +15271,7 @@
 			(uuid "7c013493-7574-436e-b1ce-da0f11029067")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678"
 					(reference "#PWR026")
 					(unit 1)
@@ -15349,7 +15349,7 @@
 			(uuid "19918635-aced-4c41-b753-643651628b21")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678"
 					(reference "#PWR07")
 					(unit 1)
@@ -15426,7 +15426,7 @@
 			(uuid "52331e59-4727-47a5-8cf3-1817960b6c4d")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678"
 					(reference "#PWR016")
 					(unit 1)
@@ -15508,7 +15508,7 @@
 			(uuid "db0df918-4a80-47a2-87e3-799480d91a35")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678"
 					(reference "C2")
 					(unit 1)
@@ -15594,7 +15594,7 @@
 			(uuid "745aa641-850f-43ef-9144-5794226d8f42")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678"
 					(reference "J11")
 					(unit 1)
@@ -15671,7 +15671,7 @@
 			(uuid "7d614431-c623-4e8e-a47d-45553ff9b319")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678"
 					(reference "#PWR015")
 					(unit 1)
@@ -15749,7 +15749,7 @@
 			(uuid "c9793636-c4df-451d-bba2-2f448a0452dd")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678"
 					(reference "#FLG02")
 					(unit 1)
@@ -15831,7 +15831,7 @@
 			(uuid "f26dfc2c-5919-4c08-be2e-f3858a082881")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678"
 					(reference "C1")
 					(unit 1)
@@ -15913,7 +15913,7 @@
 			(uuid "f420462e-c41d-456e-8ff7-5feeaa77cda0")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678"
 					(reference "C7")
 					(unit 1)
@@ -15992,7 +15992,7 @@
 			(uuid "58b34688-de1a-42b4-a6cb-aceeef587b5e")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678"
 					(reference "R3")
 					(unit 1)
@@ -16034,7 +16034,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ErgoGrid:SolderJumper"
+		(property "Footprint" "KoRN:SolderJumper"
 			(at 179.07 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -16074,7 +16074,7 @@
 			(uuid "22d0fbf0-e8d5-4730-aef1-96c4ef8f329d")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678"
 					(reference "JP32")
 					(unit 1)
@@ -16114,7 +16114,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ErgoGrid:SolderJumper"
+		(property "Footprint" "KoRN:SolderJumper"
 			(at 142.24 173.99 0)
 			(hide yes)
 			(show_name no)
@@ -16154,7 +16154,7 @@
 			(uuid "6caf1e56-cb74-4914-9b34-60426f7a5902")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678"
 					(reference "JP14")
 					(unit 1)
@@ -16235,7 +16235,7 @@
 			(uuid "41514ddd-57ec-4c72-8227-d84a084c05eb")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678"
 					(reference "R1")
 					(unit 1)
@@ -16259,7 +16259,7 @@
 			(color 0 0 0 0)
 		)
 		(uuid "0b5705a6-92dd-47ca-aedd-78d65c23ceb0")
-		(property "Sheetname" "key_grid"
+		(property "Sheetname" "keys"
 			(at 44.45 61.5184 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16270,7 +16270,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "key_grid.kicad_sch"
+		(property "Sheetfile" "keys.kicad_sch"
 			(at 44.45 79.3246 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16392,7 +16392,7 @@
 			)
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678"
 					(page "2")
 				)

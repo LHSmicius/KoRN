@@ -516,7 +516,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "ErgoGrid-pcb.kicad_pro",
+    "filename": "KoRN.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -672,12 +672,12 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "ErgoGrid-pcb.kicad_sch",
+        "filename": "KoRN.kicad_sch",
         "name": "Root",
         "uuid": "74a956b4-c88c-4954-9f37-5a65ad3d3678"
       }
     ],
-    "used_designators": "RE1,S1-4,SW1-25,LD1-24,#FLG1-4,J1-12,R1-3,JP1-38,C1-11,L1,D1-45,U1,#PWR1-32,BZ1,H1-3",
+    "used_designators": "H1-3,SW1-25,LD1-24,#FLG1-4,JP1-38,R1-3,C1-11,J1-12,D1-45,U1,#PWR1-32,L1,BZ1,S1-4,RE1",
     "variants": []
   },
   "sheets": [
@@ -687,7 +687,7 @@
     ],
     [
       "0b5705a6-92dd-47ca-aedd-78d65c23ceb0",
-      "key_grid"
+      "keys"
     ]
   ],
   "text_variables": {},

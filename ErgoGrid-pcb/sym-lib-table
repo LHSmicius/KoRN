@@ -1,4 +1,0 @@
-(sym_lib_table
-	(version 7)
-	(lib (name "ErgoGrid_SymLib") (type "KiCad") (uri "${KIPRJMOD}/ErgoGrid_SymLib.kicad_sym") (options "") (descr ""))
-)

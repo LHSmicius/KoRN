@@ -1,5 +1,7 @@
-# ErgoGrid-pcb
-Ergonomic, modern and easy to make split keyboard
+# KoRN
+Key to Reshape Norms
+
+A new look at how the keyboard may look like.
 
 Download footprints for mechanical switches from https://github.com/daprice/keyswitches.pretty
 ```shell

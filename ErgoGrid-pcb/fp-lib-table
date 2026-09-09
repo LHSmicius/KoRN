@@ -1,4 +1,0 @@
-(fp_lib_table
-	(version 7)
-	(lib (name "ErgoGrid") (type "KiCad") (uri "${KIPRJMOD}/ErgoGrid.pretty") (options "") (descr ""))
-)
