@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "KoRN") (type "KiCad") (uri "${KIPRJMOD}/KoRN.pretty") (options "") (descr ""))
+)

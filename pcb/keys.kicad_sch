@@ -5,6 +5,162 @@
 	(uuid "9c7169a9-b96c-48db-9ff0-bb54cac11c9b")
 	(paper "A4")
 	(lib_symbols
+		(symbol "C_Small:C_Small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0.254 1.778 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_Small"
+				(at 0.254 -2.032 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Unpolarized capacitor, small symbol"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "capacitor cap"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "C_Small_0_1"
+				(polyline
+					(pts
+						(xy -1.524 0.508) (xy 1.524 0.508)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
+					)
+					(stroke
+						(width 0.3302)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.032)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.032)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "D_Small_Filled:D_Small_Filled"
 			(pin_numbers
 				(hide yes)
@@ -898,7 +1054,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "SK6812MINI:SK6812MINI"
+		(symbol "SK6812:SK6812"
 			(pin_names
 				(offset 0.254)
 			)
@@ -918,7 +1074,7 @@
 					(justify right bottom)
 				)
 			)
-			(property "Value" "SK6812MINI"
+			(property "Value" "SK6812"
 				(at 1.27 -5.715 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -929,7 +1085,7 @@
 					(justify left top)
 				)
 			)
-			(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
+			(property "Footprint" "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm"
 				(at 1.27 -7.62 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -941,7 +1097,7 @@
 					(justify left top)
 				)
 			)
-			(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
+			(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
 				(at 2.54 -9.525 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -964,7 +1120,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "RGB LED NeoPixel Mini addressable"
+			(property "ki_keywords" "RGB LED NeoPixel addressable"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -975,7 +1131,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "LED*SK6812MINI*PLCC*3.5x3.5mm*P1.75mm*"
+			(property "ki_fp_filters" "LED*SK6812*PLCC*5.0x5.0mm*P3.2mm*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -986,7 +1142,7 @@
 					)
 				)
 			)
-			(symbol "SK6812MINI_0_0"
+			(symbol "SK6812_0_0"
 				(text "RGB"
 					(at 2.286 -4.191 0)
 					(effects
@@ -996,7 +1152,7 @@
 					)
 				)
 			)
-			(symbol "SK6812MINI_0_1"
+			(symbol "SK6812_0_1"
 				(polyline
 					(pts
 						(xy 1.27 -2.54) (xy 1.778 -2.54)
@@ -1093,25 +1249,7 @@
 					)
 				)
 			)
-			(symbol "SK6812MINI_1_1"
-				(pin output line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "DOUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
+			(symbol "SK6812_1_1"
 				(pin power_in line
 					(at 0 -7.62 90)
 					(length 2.54)
@@ -1122,7 +1260,7 @@
 							)
 						)
 					)
-					(number "2"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1140,7 +1278,7 @@
 							)
 						)
 					)
-					(number "3"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1152,6 +1290,24 @@
 					(at 0 7.62 270)
 					(length 2.54)
 					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "DOUT"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1485,7 +1641,7 @@
 	)
 	(text "RGB GRID"
 		(exclude_from_sim no)
-		(at 29.464 22.352 0)
+		(at 36.83 19.05 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -1494,10 +1650,22 @@
 		(uuid "4778c555-833a-495f-a128-1231607fe904")
 	)
 	(junction
-		(at 68.58 76.2)
+		(at 135.89 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "08575ef1-8916-42d0-a42c-2575d27fc2ed")
+	)
+	(junction
+		(at 78.74 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "08696490-466b-4360-84eb-146012d2ba43")
+	)
+	(junction
+		(at 59.69 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0a8f1847-3ed4-47aa-9d39-1f1719fdb4e7")
 	)
 	(junction
 		(at 76.2 133.35)
@@ -1506,16 +1674,28 @@
 		(uuid "14e929ba-7b61-49a5-b470-6ebb668b0b33")
 	)
 	(junction
-		(at 106.68 57.15)
+		(at 187.96 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "179aa349-531c-4ff8-98bc-94cc1ed6fe17")
+	)
+	(junction
+		(at 116.84 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "17ac9379-ed68-4a4f-a16f-4333574dd0fc")
 	)
 	(junction
-		(at 156.21 87.63)
+		(at 166.37 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "194e5e10-3d82-43c7-9d79-d1a3062fb639")
+	)
+	(junction
+		(at 154.94 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1a6187de-869d-4317-85a8-0c14a38a7f12")
 	)
 	(junction
 		(at 57.15 133.35)
@@ -1536,19 +1716,25 @@
 		(uuid "1f35d645-d0cd-4abb-9fb1-933054cfd027")
 	)
 	(junction
+		(at 133.35 152.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "24554326-34b7-47c1-bd55-a191bfcd129f")
+	)
+	(junction
 		(at 101.6 139.7)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "29a915d2-bf66-4ffb-96ba-f86cce505219")
 	)
 	(junction
-		(at 68.58 38.1)
+		(at 78.74 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2a49b933-8b48-4a3e-87dd-f9a81a352d7d")
 	)
 	(junction
-		(at 161.29 80.01)
+		(at 168.91 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2b8f9820-0834-4526-9f0e-36c8dd993dc4")
@@ -1558,18 +1744,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2d31d51c-6bcd-426f-8b80-492d02447c81")
-	)
-	(junction
-		(at 163.83 80.01)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "33b1515f-27da-44fb-ae39-d3cb300cf1df")
-	)
-	(junction
-		(at 49.53 38.1)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "34a82436-72b8-466b-8025-13f1bcff6a8b")
 	)
 	(junction
 		(at 152.4 133.35)
@@ -1584,40 +1758,40 @@
 		(uuid "3c4c3e47-dc48-4df0-a92f-9846a408b976")
 	)
 	(junction
-		(at 125.73 76.2)
+		(at 166.37 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3fdbd42a-f5b2-4445-996b-c8083a99a77c")
+	)
+	(junction
+		(at 135.89 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "42c7457d-93a2-4589-820b-a4056ee118f6")
 	)
 	(junction
-		(at 58.42 49.53)
+		(at 68.58 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "46ae3b3b-c937-4113-99ed-e0ae0abb28d8")
 	)
 	(junction
-		(at 101.6 177.8)
+		(at 82.55 177.8)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "499135ec-7fda-492d-8ede-5f95c657e7ff")
 	)
 	(junction
-		(at 125.73 38.1)
+		(at 135.89 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4b0d8d25-dc9e-4ec8-a6fe-81e855926500")
 	)
 	(junction
-		(at 125.73 57.15)
+		(at 135.89 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4ed3cce2-8d18-451c-90e3-0ae7dfb2c740")
-	)
-	(junction
-		(at 182.88 80.01)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4ff526d5-e1fb-4913-9d8a-f844c4353e01")
 	)
 	(junction
 		(at 120.65 120.65)
@@ -1626,22 +1800,40 @@
 		(uuid "51fde5e7-ac17-41cd-9823-051ac03de682")
 	)
 	(junction
+		(at 59.69 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "55e2a6bd-7a5e-4d08-9f17-348473a5cf1f")
+	)
+	(junction
 		(at 82.55 158.75)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "566e7d16-2aea-453b-9614-b25beed375f2")
 	)
 	(junction
-		(at 82.55 177.8)
+		(at 120.65 177.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5a3a0366-06d3-4e8a-ab34-29f7de9d963d")
+	)
+	(junction
+		(at 63.5 177.8)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5b4b7d9b-6823-48e8-87fc-c91bf5f742af")
 	)
 	(junction
-		(at 106.68 22.86)
+		(at 116.84 22.86)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5c73fc33-fa3a-439b-8596-94c9c6d77e91")
+	)
+	(junction
+		(at 187.96 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5e196033-0441-41ce-9218-24c626d01f6c")
 	)
 	(junction
 		(at 120.65 139.7)
@@ -1650,31 +1842,25 @@
 		(uuid "628ef075-bbe3-473e-828b-1d9dc8dd29ae")
 	)
 	(junction
-		(at 133.35 152.4)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6455eecb-0f15-41e1-a82e-958c4b99479a")
-	)
-	(junction
 		(at 114.3 133.35)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6817c015-6ab1-422e-8f05-3f59b150c22d")
 	)
 	(junction
-		(at 144.78 41.91)
+		(at 154.94 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "688cb418-d729-4109-bedc-dbbc7facbf2d")
 	)
 	(junction
-		(at 49.53 76.2)
+		(at 154.94 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "6a9cc1ba-d4ad-4b2d-bc0b-d7f115732e2a")
+		(uuid "6c570e7d-4816-4037-89d5-f068ff15f7b6")
 	)
 	(junction
-		(at 120.65 177.8)
+		(at 101.6 177.8)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6d002799-a44a-4115-8f3c-9c9e76ff45dd")
@@ -1686,37 +1872,31 @@
 		(uuid "6da33245-34fd-402f-8507-33fa34399ab9")
 	)
 	(junction
-		(at 68.58 57.15)
+		(at 78.74 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6ee4af85-0264-4e9b-807f-421879049617")
 	)
 	(junction
-		(at 210.82 87.63)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "72b6df8a-6dea-4995-babb-258b20baa38b")
-	)
-	(junction
-		(at 191.77 87.63)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7411de16-bf02-4fae-ae23-e4dc3f928b91")
-	)
-	(junction
-		(at 156.21 68.58)
+		(at 166.37 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7451f123-0ed3-4a2e-b11d-cd1f98a27e73")
 	)
 	(junction
-		(at 106.68 60.96)
+		(at 43.18 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7596c0bd-acf5-4091-bc69-67ae672f519a")
+	)
+	(junction
+		(at 116.84 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "75a41e88-5767-4019-becf-64e310bf989c")
 	)
 	(junction
-		(at 144.78 22.86)
+		(at 154.94 22.86)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7678de16-a66a-48fd-9bca-35d682e17296")
@@ -1734,25 +1914,37 @@
 		(uuid "782357b7-9e15-46d8-bbcc-fe6cc315f764")
 	)
 	(junction
+		(at 59.69 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "79d12fca-7831-4ce1-9df7-c84184feb99e")
+	)
+	(junction
 		(at 63.5 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7b8b5f67-e77a-42c8-96ab-9b2dcd373041")
 	)
 	(junction
-		(at 125.73 95.25)
+		(at 180.34 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "7f9cee86-a8a3-44d7-9d3f-ada4a385e1b1")
+		(uuid "80eacac1-959b-4887-b820-b6aa34ef2b6d")
 	)
 	(junction
-		(at 163.83 95.25)
+		(at 119.38 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "86eb1843-dc74-43e3-99e2-045c0c8f5c91")
+		(uuid "883fa576-3e6b-46d5-ae41-e41afc1ee810")
 	)
 	(junction
-		(at 87.63 38.1)
+		(at 76.2 152.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8b070766-bce0-4f65-8aa0-abe6d1382efc")
+	)
+	(junction
+		(at 97.79 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "92f7de11-6a41-40a4-9c48-71ed662cb286")
@@ -1776,19 +1968,13 @@
 		(uuid "98a87d08-0474-427a-bd97-71788877e096")
 	)
 	(junction
-		(at 114.3 152.4)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9aef159b-c31c-476f-a997-bb4988484874")
-	)
-	(junction
-		(at 125.73 60.96)
+		(at 135.89 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9d56b1ee-dcb8-46d5-b29c-dc5534415747")
 	)
 	(junction
-		(at 161.29 41.91)
+		(at 168.91 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9e507d36-2eeb-47ba-880d-e88d9eb7707a")
@@ -1800,10 +1986,28 @@
 		(uuid "9fd58a72-14ec-4a88-a66a-68ef4c53b5f3")
 	)
 	(junction
-		(at 191.77 77.47)
+		(at 43.18 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "ac7395f5-d303-42a6-a5ea-34b356115de6")
+		(uuid "a3dc16d9-3a2c-46bd-ba7c-a788502b543e")
+	)
+	(junction
+		(at 114.3 152.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a6c0e76f-2172-4b4a-9ca6-b1924364ab6f")
+	)
+	(junction
+		(at 59.69 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a72639ac-4f83-4e16-bf6c-42f0fe083026")
+	)
+	(junction
+		(at 95.25 152.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "add93037-798e-4625-b8a4-c690392df41c")
 	)
 	(junction
 		(at 63.5 158.75)
@@ -1818,61 +2022,67 @@
 		(uuid "b09e9480-f23a-4760-a333-0ef42187096c")
 	)
 	(junction
-		(at 58.42 68.58)
+		(at 68.58 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b37d976d-14be-48ad-9a99-4f20d4e65f69")
 	)
 	(junction
-		(at 68.58 41.91)
+		(at 78.74 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b3c02a72-7127-43e8-a38c-3ac8d1cff8d9")
 	)
 	(junction
-		(at 87.63 76.2)
+		(at 97.79 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b44aedbf-5630-47b4-a029-e7d891f5ef66")
 	)
 	(junction
-		(at 156.21 49.53)
+		(at 166.37 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b5d5250e-e0be-4f5d-ade1-27704d0b1f60")
 	)
 	(junction
-		(at 125.73 41.91)
+		(at 135.89 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b8253d5d-228f-43bb-a117-70e7f71e0f4b")
 	)
 	(junction
-		(at 125.73 22.86)
+		(at 135.89 22.86)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b85b4027-9d71-485e-a9ec-48db4ee30aaf")
 	)
 	(junction
-		(at 38.1 57.15)
+		(at 59.69 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b8e9dfc6-672a-4135-ab09-b4028d6f558c")
+	)
+	(junction
+		(at 35.56 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bbbfc845-690f-4735-afde-6a2daf114cc3")
 	)
 	(junction
-		(at 161.29 60.96)
+		(at 168.91 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bc040f97-5272-43e3-b7dd-eb07b0c1ee99")
 	)
 	(junction
-		(at 87.63 60.96)
+		(at 97.79 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bc258191-9488-46b3-ad46-d5766a642d00")
 	)
 	(junction
-		(at 144.78 60.96)
+		(at 154.94 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bccc0931-646e-4763-bff7-d8f6c1ae0861")
@@ -1890,49 +2100,67 @@
 		(uuid "bef5ab60-97a3-4c7d-803a-fde108f434b6")
 	)
 	(junction
-		(at 144.78 95.25)
+		(at 154.94 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bf5b7985-882f-4647-bb56-35cebde093c2")
 	)
 	(junction
-		(at 113.03 76.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c071394a-68eb-4561-85e5-ce78d8cdc9ae")
-	)
-	(junction
-		(at 38.1 76.2)
+		(at 35.56 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c8428e80-2719-45ee-9fbf-ab1b11b9ac51")
 	)
 	(junction
-		(at 182.88 95.25)
+		(at 59.69 22.86)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "c9dc785b-767f-40b3-897c-70f2fd8953d4")
+		(uuid "c9e7e0cc-7d61-46fd-a3e3-48adbc9553a2")
 	)
 	(junction
-		(at 87.63 57.15)
+		(at 172.72 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ca09d6e4-94e7-4a2b-bf37-4ab8481cf27f")
+	)
+	(junction
+		(at 43.18 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cccfc1b2-6122-4d79-ba7a-14e57ac3a800")
+	)
+	(junction
+		(at 187.96 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cd02ee78-995b-4561-9bf4-7a8f88d4125a")
+	)
+	(junction
+		(at 97.79 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cf9f19c9-6bab-427e-9c90-d33acae822a3")
 	)
 	(junction
-		(at 106.68 41.91)
+		(at 135.89 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d1082583-7473-46c0-bd6a-c74b21ec6e64")
+	)
+	(junction
+		(at 116.84 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d22ec261-d5dc-4bef-9fe1-8734fee61769")
 	)
 	(junction
-		(at 106.68 76.2)
+		(at 116.84 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d7d4e038-53f3-4c19-b30e-0e47e2bca5d3")
 	)
 	(junction
-		(at 161.29 22.86)
+		(at 168.91 22.86)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d7e3fae7-1c23-4184-a004-7e839f5a007a")
@@ -1944,13 +2172,19 @@
 		(uuid "dcb59fdc-7f7e-4890-b43d-79e92cbbae5a")
 	)
 	(junction
-		(at 68.58 22.86)
+		(at 180.34 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ddbcb778-e236-43fc-a551-04a3c8dcc9b3")
+	)
+	(junction
+		(at 78.74 22.86)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e367e8e6-7312-4051-890e-2352e781ac92")
 	)
 	(junction
-		(at 87.63 41.91)
+		(at 97.79 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e406e284-f21f-49d0-9ee5-753e699deedb")
@@ -1962,16 +2196,10 @@
 		(uuid "eb2c7522-1839-4337-9a42-fab04b5cf59b")
 	)
 	(junction
-		(at 106.68 38.1)
+		(at 116.84 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "eda6d622-73fb-4e21-affb-f38f1c10bca9")
-	)
-	(junction
-		(at 95.25 152.4)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ef2e1ec8-89b0-44f7-be07-2c11579fb669")
 	)
 	(junction
 		(at 114.3 114.3)
@@ -1980,31 +2208,19 @@
 		(uuid "f0f8ccf8-b4e0-4e0d-8c1d-27d81b1e01e0")
 	)
 	(junction
-		(at 144.78 80.01)
+		(at 154.94 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f35df150-ebd5-498f-b471-1c0f9c0643b5")
 	)
 	(junction
-		(at 173.99 87.63)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f3798d4d-ff86-4b9c-b72d-66ab686694a7")
-	)
-	(junction
-		(at 68.58 60.96)
+		(at 78.74 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f4dbde9c-82dd-4d16-9b0e-9a62efa5a5ca")
 	)
 	(junction
-		(at 49.53 57.15)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fddb181c-6f79-4fd9-af0b-63a5ae2cca9b")
-	)
-	(junction
-		(at 87.63 22.86)
+		(at 97.79 22.86)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fe13bb40-8448-4efb-aa15-f95a956b6919")
@@ -2016,28 +2232,42 @@
 		(uuid "ff39ed50-472e-47be-b238-444520c51616")
 	)
 	(no_connect
-		(at 41.91 30.48)
+		(at 52.07 30.48)
 		(uuid "1f2b7790-6488-4614-80c4-d44a30be50e0")
 	)
 	(no_connect
-		(at 118.11 87.63)
+		(at 128.27 87.63)
 		(uuid "42fd798b-bafd-4417-a285-85ebcb919df4")
 	)
 	(no_connect
-		(at 41.91 49.53)
+		(at 52.07 49.53)
 		(uuid "575022c8-3db7-43ed-9d79-e11c56232de6")
 	)
 	(no_connect
-		(at 41.91 68.58)
+		(at 52.07 68.58)
 		(uuid "6e8b0a9a-4284-4613-8df8-dcc95712cafd")
 	)
 	(no_connect
-		(at 60.96 49.53)
+		(at 71.12 49.53)
 		(uuid "7b324a01-2ffe-43cb-9cae-76832679edf8")
 	)
 	(no_connect
-		(at 60.96 30.48)
+		(at 71.12 30.48)
 		(uuid "aa818454-9e8d-4bf5-8754-179362094c05")
+	)
+	(no_connect
+		(at 208.28 87.63)
+		(uuid "be062c9c-c114-4c0b-86e9-ca821726fd9f")
+	)
+	(wire
+		(pts
+			(xy 116.84 76.2) (xy 135.89 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0121ed73-71c5-4a1d-95fb-32c3c29cc4f4")
 	)
 	(wire
 		(pts
@@ -2071,7 +2301,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 38.1) (xy 106.68 38.1)
+			(xy 97.79 38.1) (xy 116.84 38.1)
 		)
 		(stroke
 			(width 0)
@@ -2091,7 +2321,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 22.86) (xy 68.58 22.86)
+			(xy 59.69 22.86) (xy 78.74 22.86)
 		)
 		(stroke
 			(width 0)
@@ -2101,7 +2331,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 22.86) (xy 161.29 22.86)
+			(xy 154.94 22.86) (xy 171.45 22.86)
 		)
 		(stroke
 			(width 0)
@@ -2111,13 +2341,23 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 68.58) (xy 60.96 68.58)
+			(xy 68.58 68.58) (xy 71.12 68.58)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "08cf6300-07b9-4761-a816-1807216d7d0f")
+	)
+	(wire
+		(pts
+			(xy 119.38 90.17) (xy 119.38 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b7ddd1b-c4a4-49be-ab54-045cfcaa54e1")
 	)
 	(wire
 		(pts
@@ -2141,17 +2381,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 87.63) (xy 173.99 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0d82dd06-e559-48b0-8e0c-6f4dc7b87a20")
-	)
-	(wire
-		(pts
-			(xy 38.1 57.15) (xy 49.53 57.15)
+			(xy 35.56 57.15) (xy 43.18 57.15)
 		)
 		(stroke
 			(width 0)
@@ -2191,6 +2421,26 @@
 	)
 	(wire
 		(pts
+			(xy 43.18 52.07) (xy 43.18 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1120bd5d-2515-4517-a143-6fb39a3c516a")
+	)
+	(wire
+		(pts
+			(xy 154.94 76.2) (xy 180.34 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13669978-34d4-4c64-8ccc-392b625a6eb5")
+	)
+	(wire
+		(pts
 			(xy 101.6 133.35) (xy 101.6 134.62)
 		)
 		(stroke
@@ -2201,7 +2451,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 171.45) (xy 101.6 171.45)
+			(xy 85.09 171.45) (xy 82.55 171.45)
 		)
 		(stroke
 			(width 0)
@@ -2241,7 +2491,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 41.91) (xy 68.58 41.91)
+			(xy 59.69 41.91) (xy 78.74 41.91)
 		)
 		(stroke
 			(width 0)
@@ -2251,7 +2501,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 95.25) (xy 163.83 95.25)
+			(xy 154.94 95.25) (xy 180.34 95.25)
 		)
 		(stroke
 			(width 0)
@@ -2281,7 +2531,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 38.1) (xy 38.1 57.15)
+			(xy 35.56 38.1) (xy 35.56 57.15)
 		)
 		(stroke
 			(width 0)
@@ -2291,7 +2541,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 68.58) (xy 137.16 68.58)
+			(xy 143.51 68.58) (xy 147.32 68.58)
 		)
 		(stroke
 			(width 0)
@@ -2301,7 +2551,17 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 22.86) (xy 125.73 22.86)
+			(xy 43.18 22.86) (xy 59.69 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1eac0187-e8a9-422b-8134-ff13a816f7f5")
+	)
+	(wire
+		(pts
+			(xy 116.84 22.86) (xy 135.89 22.86)
 		)
 		(stroke
 			(width 0)
@@ -2341,26 +2601,6 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 152.4) (xy 114.3 171.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "22d52cc7-6a08-4c51-a548-14e83f9f615e")
-	)
-	(wire
-		(pts
-			(xy 163.83 80.01) (xy 161.29 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "277537fe-6fca-484b-a447-1ab20dd08afc")
-	)
-	(wire
-		(pts
 			(xy 63.5 152.4) (xy 63.5 153.67)
 		)
 		(stroke
@@ -2368,6 +2608,16 @@
 			(type default)
 		)
 		(uuid "28453491-b1d4-43db-8d01-b6f9e6dea0d8")
+	)
+	(wire
+		(pts
+			(xy 43.18 33.02) (xy 43.18 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28c28766-59ce-4d60-bacc-2357ed7f1251")
 	)
 	(wire
 		(pts
@@ -2381,7 +2631,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 60.96) (xy 87.63 60.96)
+			(xy 78.74 60.96) (xy 97.79 60.96)
 		)
 		(stroke
 			(width 0)
@@ -2391,7 +2641,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 76.2) (xy 49.53 76.2)
+			(xy 35.56 76.2) (xy 43.18 76.2)
 		)
 		(stroke
 			(width 0)
@@ -2401,13 +2651,33 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 171.45) (xy 82.55 172.72)
+			(xy 63.5 171.45) (xy 63.5 172.72)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "2a48496b-00ce-4ef3-9854-eb00e457e9af")
+	)
+	(wire
+		(pts
+			(xy 187.96 58.42) (xy 187.96 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b2bc886-5f5d-4998-b6ef-22d66fcd7e01")
+	)
+	(wire
+		(pts
+			(xy 172.72 59.69) (xy 172.72 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ba045d5-5f39-42e0-8263-0f1e0d137160")
 	)
 	(wire
 		(pts
@@ -2421,23 +2691,33 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 152.4) (xy 95.25 171.45)
+			(xy 114.3 152.4) (xy 114.3 171.45)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2d325b59-d292-47d3-bf68-6044f04078ce")
+		(uuid "2f04768c-9808-40d1-b2a2-1b6a9d2d7373")
 	)
 	(wire
 		(pts
-			(xy 57.15 30.48) (xy 58.42 30.48)
+			(xy 67.31 30.48) (xy 68.58 30.48)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "2f2a6a5f-7a3c-478c-99d1-5ede31275751")
+	)
+	(wire
+		(pts
+			(xy 43.18 60.96) (xy 59.69 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ffa78be-1504-4621-aef3-25775a7b1a8b")
 	)
 	(wire
 		(pts
@@ -2491,17 +2771,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 87.63) (xy 191.77 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "35f3fa8e-449b-41da-8093-82319f82d41a")
-	)
-	(wire
-		(pts
-			(xy 161.29 60.96) (xy 161.29 41.91)
+			(xy 168.91 60.96) (xy 168.91 41.91)
 		)
 		(stroke
 			(width 0)
@@ -2511,13 +2781,23 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 68.58) (xy 99.06 68.58)
+			(xy 105.41 68.58) (xy 109.22 68.58)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "37c3c2f6-bb3f-435f-8758-b2af210ac4a7")
+	)
+	(wire
+		(pts
+			(xy 119.38 95.25) (xy 135.89 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3811c060-e5cd-4232-850e-7073c06342d3")
 	)
 	(wire
 		(pts
@@ -2531,7 +2811,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 171.45) (xy 101.6 172.72)
+			(xy 82.55 171.45) (xy 82.55 172.72)
 		)
 		(stroke
 			(width 0)
@@ -2551,7 +2831,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 41.91) (xy 161.29 41.91)
+			(xy 154.94 41.91) (xy 168.91 41.91)
 		)
 		(stroke
 			(width 0)
@@ -2561,13 +2841,33 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 76.2) (xy 68.58 76.2)
+			(xy 59.69 76.2) (xy 78.74 76.2)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "3afa9091-864c-4b32-9cc2-37d66f8dc122")
+	)
+	(wire
+		(pts
+			(xy 168.91 60.96) (xy 180.34 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3bebfcd7-5be8-4a99-87fe-7e38e286f00b")
+	)
+	(wire
+		(pts
+			(xy 187.96 49.53) (xy 187.96 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c11c73a-45ae-4f80-b4c3-4ec69b1b85cc")
 	)
 	(wire
 		(pts
@@ -2581,7 +2881,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 30.48) (xy 156.21 30.48)
+			(xy 162.56 30.48) (xy 166.37 30.48)
 		)
 		(stroke
 			(width 0)
@@ -2591,7 +2891,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 68.58) (xy 58.42 68.58)
+			(xy 67.31 68.58) (xy 68.58 68.58)
 		)
 		(stroke
 			(width 0)
@@ -2601,7 +2901,17 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 95.25) (xy 144.78 95.25)
+			(xy 76.2 152.4) (xy 76.2 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e6a5e2e-4f44-4f1f-9655-2a165946febd")
+	)
+	(wire
+		(pts
+			(xy 135.89 95.25) (xy 154.94 95.25)
 		)
 		(stroke
 			(width 0)
@@ -2631,7 +2941,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 57.15) (xy 125.73 57.15)
+			(xy 116.84 57.15) (xy 135.89 57.15)
 		)
 		(stroke
 			(width 0)
@@ -2648,16 +2958,6 @@
 			(type default)
 		)
 		(uuid "46b58708-15a6-46a9-aa33-b4e549804ce9")
-	)
-	(wire
-		(pts
-			(xy 204.47 77.47) (xy 210.82 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "46e3da00-b49d-468d-8115-0965b5414382")
 	)
 	(wire
 		(pts
@@ -2691,6 +2991,16 @@
 	)
 	(wire
 		(pts
+			(xy 193.04 87.63) (xy 193.04 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49369f7c-e3ea-47df-a226-4d1c30bac0fc")
+	)
+	(wire
+		(pts
 			(xy 85.09 152.4) (xy 82.55 152.4)
 		)
 		(stroke
@@ -2711,7 +3021,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 80.01) (xy 161.29 60.96)
+			(xy 168.91 80.01) (xy 168.91 60.96)
 		)
 		(stroke
 			(width 0)
@@ -2721,17 +3031,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 87.63) (xy 210.82 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4dc42210-4e0e-436c-8924-d95a1f01e6f0")
-	)
-	(wire
-		(pts
-			(xy 156.21 49.53) (xy 156.21 68.58)
+			(xy 166.37 49.53) (xy 166.37 68.58)
 		)
 		(stroke
 			(width 0)
@@ -2741,13 +3041,33 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 80.01) (xy 144.78 80.01)
+			(xy 120.65 171.45) (xy 120.65 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "535a281a-14a9-4911-b713-852a0c2f9ee9")
+	)
+	(wire
+		(pts
+			(xy 135.89 80.01) (xy 154.94 80.01)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "54a21a54-bb20-4668-b2b0-5d894f2936cc")
+	)
+	(wire
+		(pts
+			(xy 187.96 68.58) (xy 187.96 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56113b5c-3bfb-4e23-8fab-d44acb184f1e")
 	)
 	(wire
 		(pts
@@ -2761,7 +3081,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 57.15) (xy 38.1 76.2)
+			(xy 35.56 57.15) (xy 35.56 76.2)
 		)
 		(stroke
 			(width 0)
@@ -2801,7 +3121,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 76.2) (xy 144.78 76.2)
+			(xy 135.89 76.2) (xy 154.94 76.2)
 		)
 		(stroke
 			(width 0)
@@ -2821,7 +3141,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 177.8) (xy 120.65 177.8)
+			(xy 135.89 177.8) (xy 101.6 177.8)
 		)
 		(stroke
 			(width 0)
@@ -2831,7 +3151,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 49.53) (xy 58.42 68.58)
+			(xy 68.58 49.53) (xy 68.58 68.58)
 		)
 		(stroke
 			(width 0)
@@ -2841,7 +3161,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 49.53) (xy 99.06 49.53)
+			(xy 105.41 49.53) (xy 109.22 49.53)
 		)
 		(stroke
 			(width 0)
@@ -2851,7 +3171,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 57.15) (xy 144.78 57.15)
+			(xy 135.89 57.15) (xy 154.94 57.15)
 		)
 		(stroke
 			(width 0)
@@ -2861,7 +3181,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 22.86) (xy 87.63 22.86)
+			(xy 78.74 22.86) (xy 97.79 22.86)
 		)
 		(stroke
 			(width 0)
@@ -2881,7 +3201,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 30.48) (xy 137.16 30.48)
+			(xy 143.51 30.48) (xy 147.32 30.48)
 		)
 		(stroke
 			(width 0)
@@ -2891,17 +3211,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 95.25) (xy 201.93 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "66c007a2-8eae-4294-8f59-69a0e2dadc69")
-	)
-	(wire
-		(pts
-			(xy 120.65 171.45) (xy 120.65 172.72)
+			(xy 101.6 171.45) (xy 101.6 172.72)
 		)
 		(stroke
 			(width 0)
@@ -2911,7 +3221,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 38.1) (xy 87.63 38.1)
+			(xy 78.74 38.1) (xy 97.79 38.1)
 		)
 		(stroke
 			(width 0)
@@ -2921,7 +3231,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 87.63) (xy 213.36 87.63)
+			(xy 187.96 49.53) (xy 191.77 49.53)
 		)
 		(stroke
 			(width 0)
@@ -2931,7 +3241,17 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 41.91) (xy 161.29 22.86)
+			(xy 95.25 152.4) (xy 95.25 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c16b3f0-b019-44a7-86ca-2ed168c99335")
+	)
+	(wire
+		(pts
+			(xy 168.91 41.91) (xy 168.91 22.86)
 		)
 		(stroke
 			(width 0)
@@ -2941,7 +3261,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 30.48) (xy 80.01 30.48)
+			(xy 86.36 30.48) (xy 90.17 30.48)
 		)
 		(stroke
 			(width 0)
@@ -2961,6 +3281,16 @@
 	)
 	(wire
 		(pts
+			(xy 187.96 59.69) (xy 187.96 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e2fda94-9c55-4fdb-9e5e-495563216cb2")
+	)
+	(wire
+		(pts
 			(xy 46.99 114.3) (xy 44.45 114.3)
 		)
 		(stroke
@@ -2971,7 +3301,17 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 95.25) (xy 125.73 95.25)
+			(xy 43.18 38.1) (xy 59.69 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7149da09-4014-47bb-97aa-dfe5d6915c67")
+	)
+	(wire
+		(pts
+			(xy 116.84 95.25) (xy 119.38 95.25)
 		)
 		(stroke
 			(width 0)
@@ -2981,7 +3321,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 87.63) (xy 156.21 87.63)
+			(xy 162.56 87.63) (xy 166.37 87.63)
 		)
 		(stroke
 			(width 0)
@@ -3001,6 +3341,16 @@
 	)
 	(wire
 		(pts
+			(xy 43.18 71.12) (xy 43.18 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75225466-dfae-403b-b23e-da61b1524a1f")
+	)
+	(wire
+		(pts
 			(xy 104.14 114.3) (xy 101.6 114.3)
 		)
 		(stroke
@@ -3008,16 +3358,6 @@
 			(type default)
 		)
 		(uuid "758ab623-c5d8-45f4-a78d-8251984bfdcf")
-	)
-	(wire
-		(pts
-			(xy 210.82 77.47) (xy 210.82 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "78cea118-04d4-4ce5-8bac-0e64ea37737d")
 	)
 	(wire
 		(pts
@@ -3041,7 +3381,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 171.45) (xy 120.65 171.45)
+			(xy 104.14 171.45) (xy 101.6 171.45)
 		)
 		(stroke
 			(width 0)
@@ -3051,7 +3391,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 49.53) (xy 137.16 49.53)
+			(xy 143.51 49.53) (xy 147.32 49.53)
 		)
 		(stroke
 			(width 0)
@@ -3081,6 +3421,46 @@
 	)
 	(wire
 		(pts
+			(xy 187.96 66.04) (xy 187.96 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "820e9c1d-14b3-44ce-a5dd-b75d320dec7a")
+	)
+	(wire
+		(pts
+			(xy 123.19 171.45) (xy 120.65 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84565a40-27cb-43b5-a85e-d6110fcbe122")
+	)
+	(wire
+		(pts
+			(xy 180.34 80.01) (xy 200.66 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8636e5f5-1df1-4287-bb48-66afcfbef275")
+	)
+	(wire
+		(pts
+			(xy 193.04 77.47) (xy 166.37 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "867774e8-fe53-437f-b929-681cce24c514")
+	)
+	(wire
+		(pts
 			(xy 120.65 120.65) (xy 139.7 120.65)
 		)
 		(stroke
@@ -3101,7 +3481,17 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 60.96) (xy 68.58 60.96)
+			(xy 172.72 49.53) (xy 172.72 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "879d1222-b102-49ce-87e4-71f08bdb8800")
+	)
+	(wire
+		(pts
+			(xy 59.69 60.96) (xy 78.74 60.96)
 		)
 		(stroke
 			(width 0)
@@ -3111,37 +3501,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 95.25) (xy 182.88 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "884f816c-6258-4745-8d5e-4340754518ba")
-	)
-	(wire
-		(pts
-			(xy 191.77 77.47) (xy 191.77 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "88e93894-5a2f-43ed-a9fc-39adc3a5af0b")
-	)
-	(wire
-		(pts
-			(xy 191.77 87.63) (xy 194.31 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "88fa3391-cfa6-44bc-a8e7-f881b7ef0c9e")
-	)
-	(wire
-		(pts
-			(xy 38.1 177.8) (xy 82.55 177.8)
+			(xy 38.1 177.8) (xy 63.5 177.8)
 		)
 		(stroke
 			(width 0)
@@ -3161,7 +3521,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 87.63) (xy 137.16 87.63)
+			(xy 143.51 87.63) (xy 147.32 87.63)
 		)
 		(stroke
 			(width 0)
@@ -3171,7 +3531,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 60.96) (xy 161.29 60.96)
+			(xy 154.94 60.96) (xy 168.91 60.96)
 		)
 		(stroke
 			(width 0)
@@ -3201,17 +3561,17 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 152.4) (xy 133.35 171.45)
+			(xy 166.37 77.47) (xy 166.37 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "91122796-51e9-47db-90da-25441a474b3c")
+		(uuid "90282202-b514-4b9b-a4b9-e401e64d3dac")
 	)
 	(wire
 		(pts
-			(xy 87.63 57.15) (xy 106.68 57.15)
+			(xy 97.79 57.15) (xy 116.84 57.15)
 		)
 		(stroke
 			(width 0)
@@ -3221,7 +3581,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 76.2) (xy 106.68 76.2)
+			(xy 97.79 76.2) (xy 116.84 76.2)
 		)
 		(stroke
 			(width 0)
@@ -3231,17 +3591,27 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 76.2) (xy 113.03 76.2)
+			(xy 119.38 85.09) (xy 119.38 80.01)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "94c411da-9664-49a0-89e7-3c446719d9a1")
+		(uuid "95b42148-a586-4505-9e00-5976d9fdbcf8")
 	)
 	(wire
 		(pts
-			(xy 125.73 60.96) (xy 144.78 60.96)
+			(xy 43.18 46.99) (xy 43.18 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9651047b-2f80-4787-add1-038b49f3b19c")
+	)
+	(wire
+		(pts
+			(xy 135.89 60.96) (xy 154.94 60.96)
 		)
 		(stroke
 			(width 0)
@@ -3251,7 +3621,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 49.53) (xy 118.11 49.53)
+			(xy 124.46 49.53) (xy 128.27 49.53)
 		)
 		(stroke
 			(width 0)
@@ -3271,23 +3641,23 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 30.48) (xy 156.21 49.53)
+			(xy 43.18 27.94) (xy 43.18 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98d852ff-db65-4e22-b01e-9a081de12e24")
+	)
+	(wire
+		(pts
+			(xy 166.37 30.48) (xy 166.37 49.53)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "99769426-0cb8-4079-b74d-8ef4eff239b0")
-	)
-	(wire
-		(pts
-			(xy 163.83 80.01) (xy 182.88 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9a33d500-c1a2-4b72-9fcb-b6670d35bd90")
 	)
 	(wire
 		(pts
@@ -3311,7 +3681,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 41.91) (xy 87.63 41.91)
+			(xy 78.74 41.91) (xy 97.79 41.91)
 		)
 		(stroke
 			(width 0)
@@ -3321,7 +3691,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 171.45) (xy 82.55 171.45)
+			(xy 66.04 171.45) (xy 63.5 171.45)
 		)
 		(stroke
 			(width 0)
@@ -3331,7 +3701,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 60.96) (xy 106.68 60.96)
+			(xy 97.79 60.96) (xy 116.84 60.96)
 		)
 		(stroke
 			(width 0)
@@ -3341,13 +3711,23 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 41.91) (xy 144.78 41.91)
+			(xy 135.89 41.91) (xy 154.94 41.91)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "a0a6be0e-2c34-4202-9b01-a2f7f5a2b445")
+	)
+	(wire
+		(pts
+			(xy 133.35 152.4) (xy 133.35 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1780640-8734-41d8-89dd-e1538eada245")
 	)
 	(wire
 		(pts
@@ -3361,16 +3741,6 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 76.2) (xy 125.73 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a397e269-8a57-42a6-8533-bcf6fc7141cf")
-	)
-	(wire
-		(pts
 			(xy 38.1 120.65) (xy 44.45 120.65)
 		)
 		(stroke
@@ -3381,17 +3751,27 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 77.47) (xy 199.39 77.47)
+			(xy 119.38 80.01) (xy 135.89 80.01)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ac2bfd06-221c-432d-bba2-6641aa55f8ba")
+		(uuid "aa2dc0ca-5f09-4c4b-9e8c-a5268443c760")
 	)
 	(wire
 		(pts
-			(xy 49.53 57.15) (xy 68.58 57.15)
+			(xy 180.34 95.25) (xy 200.66 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa3be431-5f34-45b1-9862-65702d600034")
+	)
+	(wire
+		(pts
+			(xy 59.69 57.15) (xy 78.74 57.15)
 		)
 		(stroke
 			(width 0)
@@ -3401,7 +3781,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 30.48) (xy 118.11 30.48)
+			(xy 124.46 30.48) (xy 128.27 30.48)
 		)
 		(stroke
 			(width 0)
@@ -3411,13 +3791,23 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 68.58) (xy 80.01 68.58)
+			(xy 86.36 68.58) (xy 90.17 68.58)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "b8c19498-f97b-4a3f-a073-07ad4a653e4e")
+	)
+	(wire
+		(pts
+			(xy 172.72 87.63) (xy 166.37 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8e5bef3-713a-4d42-a95a-37e24eb37185")
 	)
 	(wire
 		(pts
@@ -3431,7 +3821,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 49.53) (xy 80.01 49.53)
+			(xy 86.36 49.53) (xy 90.17 49.53)
 		)
 		(stroke
 			(width 0)
@@ -3441,13 +3831,23 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 80.01) (xy 201.93 80.01)
+			(xy 43.18 76.2) (xy 59.69 76.2)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bf53fb3f-a3e6-4613-b04d-e371ce8fe75d")
+		(uuid "bca52ccf-8f3a-4bd9-859a-c83d1e6cb836")
+	)
+	(wire
+		(pts
+			(xy 43.18 57.15) (xy 59.69 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bed261bc-b092-41c0-bd25-379dc4e6ad4e")
 	)
 	(wire
 		(pts
@@ -3481,6 +3881,16 @@
 	)
 	(wire
 		(pts
+			(xy 168.91 41.91) (xy 180.34 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c813f61a-05eb-4e4f-8912-4b1e35198cd0")
+	)
+	(wire
+		(pts
 			(xy 44.45 139.7) (xy 63.5 139.7)
 		)
 		(stroke
@@ -3491,7 +3901,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 68.58) (xy 118.11 68.58)
+			(xy 124.46 68.58) (xy 128.27 68.58)
 		)
 		(stroke
 			(width 0)
@@ -3501,7 +3911,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 57.15) (xy 87.63 57.15)
+			(xy 78.74 57.15) (xy 97.79 57.15)
 		)
 		(stroke
 			(width 0)
@@ -3521,7 +3931,17 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 80.01) (xy 161.29 80.01)
+			(xy 43.18 66.04) (xy 43.18 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc7ddc89-4140-4ba4-8c93-47353dde9376")
+	)
+	(wire
+		(pts
+			(xy 154.94 80.01) (xy 180.34 80.01)
 		)
 		(stroke
 			(width 0)
@@ -3531,7 +3951,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 22.86) (xy 144.78 22.86)
+			(xy 135.89 22.86) (xy 154.94 22.86)
 		)
 		(stroke
 			(width 0)
@@ -3541,7 +3961,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 38.1) (xy 144.78 38.1)
+			(xy 135.89 38.1) (xy 154.94 38.1)
 		)
 		(stroke
 			(width 0)
@@ -3551,7 +3971,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 22.86) (xy 106.68 22.86)
+			(xy 97.79 22.86) (xy 116.84 22.86)
 		)
 		(stroke
 			(width 0)
@@ -3561,7 +3981,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 68.58) (xy 156.21 68.58)
+			(xy 162.56 68.58) (xy 166.37 68.58)
 		)
 		(stroke
 			(width 0)
@@ -3571,7 +3991,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 38.1) (xy 125.73 38.1)
+			(xy 116.84 38.1) (xy 135.89 38.1)
 		)
 		(stroke
 			(width 0)
@@ -3591,7 +4011,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 41.91) (xy 125.73 41.91)
+			(xy 116.84 41.91) (xy 135.89 41.91)
 		)
 		(stroke
 			(width 0)
@@ -3641,7 +4061,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 95.25) (xy 113.03 76.2)
+			(xy 116.84 95.25) (xy 116.84 76.2)
 		)
 		(stroke
 			(width 0)
@@ -3661,33 +4081,13 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 87.63) (xy 175.26 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e01917f9-f0ae-485b-937f-b11fc2b3c932")
-	)
-	(wire
-		(pts
-			(xy 49.53 38.1) (xy 68.58 38.1)
+			(xy 59.69 38.1) (xy 78.74 38.1)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "e0c43fc2-a2bd-40fc-adde-b14ab7cd9503")
-	)
-	(wire
-		(pts
-			(xy 173.99 77.47) (xy 173.99 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e3ea5ccb-857b-4ace-b032-3626cd9ebfaa")
 	)
 	(wire
 		(pts
@@ -3701,7 +4101,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 49.53) (xy 58.42 49.53)
+			(xy 67.31 49.53) (xy 68.58 49.53)
 		)
 		(stroke
 			(width 0)
@@ -3721,7 +4121,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 60.96) (xy 125.73 60.96)
+			(xy 116.84 60.96) (xy 135.89 60.96)
 		)
 		(stroke
 			(width 0)
@@ -3731,7 +4131,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 76.2) (xy 87.63 76.2)
+			(xy 78.74 76.2) (xy 97.79 76.2)
 		)
 		(stroke
 			(width 0)
@@ -3751,7 +4151,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 38.1) (xy 49.53 38.1)
+			(xy 35.56 38.1) (xy 43.18 38.1)
 		)
 		(stroke
 			(width 0)
@@ -3761,17 +4161,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 77.47) (xy 173.99 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eb5c30c6-4d30-4d4e-bb6a-42129e376caa")
-	)
-	(wire
-		(pts
-			(xy 95.25 30.48) (xy 99.06 30.48)
+			(xy 105.41 30.48) (xy 109.22 30.48)
 		)
 		(stroke
 			(width 0)
@@ -3781,7 +4171,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 41.91) (xy 106.68 41.91)
+			(xy 97.79 41.91) (xy 116.84 41.91)
 		)
 		(stroke
 			(width 0)
@@ -3801,13 +4191,23 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 49.53) (xy 156.21 49.53)
+			(xy 162.56 49.53) (xy 166.37 49.53)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "f150af10-008d-4076-aef9-d63aaece1efd")
+	)
+	(wire
+		(pts
+			(xy 187.96 59.69) (xy 172.72 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1eb6352-095b-4856-95ae-acf13355a706")
 	)
 	(wire
 		(pts
@@ -3821,23 +4221,13 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 68.58) (xy 156.21 87.63)
+			(xy 166.37 68.58) (xy 166.37 77.47)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "f3821dac-d623-4f35-9612-57081d57e09f")
-	)
-	(wire
-		(pts
-			(xy 185.42 77.47) (xy 191.77 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f3aaea06-7edf-412e-ba24-cfbaa7f69609")
 	)
 	(wire
 		(pts
@@ -3851,7 +4241,17 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 30.48) (xy 58.42 49.53)
+			(xy 43.18 41.91) (xy 59.69 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6eb62c4-b5fe-4e12-9c42-e3aff1d4f347")
+	)
+	(wire
+		(pts
+			(xy 68.58 30.48) (xy 68.58 49.53)
 		)
 		(stroke
 			(width 0)
@@ -3861,7 +4261,17 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 177.8) (xy 120.65 177.8)
+			(xy 154.94 57.15) (xy 180.34 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa8e0061-ff10-4eac-8722-0ab4381a7ca6")
+	)
+	(wire
+		(pts
+			(xy 82.55 177.8) (xy 101.6 177.8)
 		)
 		(stroke
 			(width 0)
@@ -3871,7 +4281,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 177.8) (xy 101.6 177.8)
+			(xy 63.5 177.8) (xy 82.55 177.8)
 		)
 		(stroke
 			(width 0)
@@ -4027,7 +4437,7 @@
 	)
 	(hierarchical_label "RGB"
 		(shape bidirectional)
-		(at 213.36 87.63 0)
+		(at 191.77 49.53 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4060,7 +4470,7 @@
 	)
 	(symbol
 		(lib_id "Jumper_2_Small_Open:Jumper_2_Small_Open")
-		(at 201.93 77.47 0)
+		(at 187.96 55.88 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4069,18 +4479,19 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00653fb6-1721-451c-995f-05b0b97a3efe")
-		(property "Reference" "JP38"
-			(at 201.93 74.93 0)
+		(property "Reference" "JP37"
+			(at 190.246 55.88 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "EncTop"
-			(at 201.93 73.66 0)
+			(at 191.77 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4090,8 +4501,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
-			(at 201.93 77.47 0)
+		(property "Footprint" "KoRN:SolderJumper"
+			(at 187.96 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4102,7 +4513,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 201.93 77.47 0)
+			(at 187.96 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4113,7 +4524,7 @@
 			)
 		)
 		(property "Description" "Jumper, 2-pole, small symbol, open"
-			(at 201.93 77.47 0)
+			(at 187.96 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4130,9 +4541,9 @@
 			(uuid "04300ca5-ee07-425e-977a-0bee21492308")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678/0b5705a6-92dd-47ca-aedd-78d65c23ceb0"
-					(reference "JP38")
+					(reference "JP37")
 					(unit 1)
 				)
 			)
@@ -4149,7 +4560,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "015349e3-d142-4117-a62e-815deb1bc5fb")
-		(property "Reference" "D33"
+		(property "Reference" "D13"
 			(at 103.632 136.144 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4233,9 +4644,9 @@
 			(uuid "642d52a8-ba66-4932-b007-c90645167adc")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678/0b5705a6-92dd-47ca-aedd-78d65c23ceb0"
-					(reference "D33")
+					(reference "D13")
 					(unit 1)
 				)
 			)
@@ -4253,7 +4664,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0483a104-bf1c-4a06-a8a8-4f143eefc8da")
-		(property "Reference" "D45"
+		(property "Reference" "D23"
 			(at 144.78 177.546 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4335,17 +4746,97 @@
 			(uuid "505b1aa7-7a87-4ef0-8a56-d6c446814899")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678/0b5705a6-92dd-47ca-aedd-78d65c23ceb0"
-					(reference "D45")
+					(reference "D23")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "SK6812MINI:SK6812MINI")
-		(at 144.78 68.58 0)
+		(lib_id "SW_Push:SW_Push")
+		(at 128.27 171.45 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "05c71e87-4ea1-46b1-8d34-9be4b43c0836")
+		(property "Reference" "SW19"
+			(at 128.27 166.878 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 128.27 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "keyswitches:Kailh_socket_PG1350_reversible"
+			(at 128.27 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 128.27 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 128.27 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "619f7d63-c9cd-4ba3-88b0-d780ecb7f1de")
+		)
+		(pin "2"
+			(uuid "b0b2825c-fc15-45d3-b9ae-efff4c7e7fc1")
+		)
+		(instances
+			(project "KoRN"
+				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678/0b5705a6-92dd-47ca-aedd-78d65c23ceb0"
+					(reference "SW19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SK6812:SK6812")
+		(at 154.94 68.58 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -4355,8 +4846,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0af4bd6f-4486-4d6f-a551-f70d166d4b86")
-		(property "Reference" "D18"
-			(at 145.288 62.23 0)
+		(property "Reference" "LD19"
+			(at 155.448 62.23 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4367,7 +4858,7 @@
 			)
 		)
 		(property "Value" "SK6812MINI"
-			(at 145.034 74.93 0)
+			(at 155.194 74.93 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4377,8 +4868,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount"
-			(at 143.51 76.2 0)
+		(property "Footprint" "KoRN:SK6812_mini-e_rgb_reversible"
+			(at 153.67 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4389,8 +4880,8 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 142.24 78.105 0)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
+			(at 152.4 78.105 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4402,7 +4893,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 144.78 68.58 0)
+			(at 154.94 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4425,9 +4916,9 @@
 			(uuid "09d0b59b-58ea-44db-8b15-af0b1c99c91f")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678/0b5705a6-92dd-47ca-aedd-78d65c23ceb0"
-					(reference "D18")
+					(reference "LD19")
 					(unit 1)
 				)
 			)
@@ -4444,7 +4935,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "135f707d-c1f0-411b-b6b1-462da987ef20")
-		(property "Reference" "D37"
+		(property "Reference" "D6"
 			(at 65.532 155.194 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4528,17 +5019,17 @@
 			(uuid "1f44be14-50f9-4622-9eca-64618c98a2da")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678/0b5705a6-92dd-47ca-aedd-78d65c23ceb0"
-					(reference "D37")
+					(reference "D6")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "SK6812MINI:SK6812MINI")
-		(at 68.58 30.48 0)
+		(lib_id "SK6812:SK6812")
+		(at 78.74 30.48 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -4548,8 +5039,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "13a1c312-48ee-4887-9d60-ee5ed952d1a1")
-		(property "Reference" "D2"
-			(at 69.088 24.13 0)
+		(property "Reference" "LD4"
+			(at 79.248 24.13 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4560,7 +5051,7 @@
 			)
 		)
 		(property "Value" "SK6812MINI"
-			(at 68.834 36.83 0)
+			(at 78.994 36.83 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4570,8 +5061,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount"
-			(at 67.31 38.1 0)
+		(property "Footprint" "KoRN:SK6812_mini-e_rgb_reversible"
+			(at 77.47 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4582,8 +5073,8 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 66.04 40.005 0)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
+			(at 76.2 40.005 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4595,7 +5086,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 68.58 30.48 0)
+			(at 78.74 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4618,18 +5109,99 @@
 			(uuid "0397c116-5c3a-41d7-9b4d-06f358e08dbc")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678/0b5705a6-92dd-47ca-aedd-78d65c23ceb0"
-					(reference "D2")
+					(reference "LD4")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "SK6812MINI:SK6812MINI")
-		(at 182.88 87.63 0)
-		(mirror y)
+		(lib_id "C_Small:C_Small")
+		(at 43.18 49.53 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "13ce783f-0e44-4208-b28e-9b80e3fafbdc")
+		(property "Reference" "C9"
+			(at 45.72 48.2535 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100n"
+			(at 45.72 50.7935 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 43.18 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 43.18 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 43.18 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "67ff6d6f-6c46-40b7-82fb-e29248f6001d")
+		)
+		(pin "2"
+			(uuid "ca751172-9f4b-47e9-8f27-f2de8a1c3d81")
+		)
+		(instances
+			(project "KoRN"
+				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678/0b5705a6-92dd-47ca-aedd-78d65c23ceb0"
+					(reference "C9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SK6812:SK6812")
+		(at 180.34 68.58 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4638,30 +5210,30 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1c9ddb89-b6fa-41d8-bbeb-85dfba38ee9d")
-		(property "Reference" "D22"
-			(at 183.388 81.28 0)
+		(property "Reference" "LD22"
+			(at 181.102 61.976 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "SK6812MINI"
-			(at 183.134 93.98 0)
+			(at 181.356 75.184 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount"
-			(at 181.61 95.25 0)
+		(property "Footprint" "KoRN:SK6812_mini-e_rgb_reversible"
+			(at 181.61 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4672,8 +5244,8 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 180.34 97.155 0)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
+			(at 182.88 78.105 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4685,7 +5257,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 182.88 87.63 0)
+			(at 180.34 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4708,17 +5280,17 @@
 			(uuid "bdd7c215-8a3c-48d8-a07d-4be8ee7af41d")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678/0b5705a6-92dd-47ca-aedd-78d65c23ceb0"
-					(reference "D22")
+					(reference "LD22")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "SK6812MINI:SK6812MINI")
-		(at 106.68 30.48 0)
+		(lib_id "SK6812:SK6812")
+		(at 116.84 30.48 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -4728,8 +5300,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "29ea3380-b733-4ea8-8cfd-1163cc3c4df3")
-		(property "Reference" "D4"
-			(at 107.188 24.13 0)
+		(property "Reference" "LD10"
+			(at 117.348 24.13 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4740,7 +5312,7 @@
 			)
 		)
 		(property "Value" "SK6812MINI"
-			(at 106.934 36.83 0)
+			(at 117.094 36.83 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4750,8 +5322,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount"
-			(at 105.41 38.1 0)
+		(property "Footprint" "KoRN:SK6812_mini-e_rgb_reversible"
+			(at 115.57 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4762,8 +5334,8 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 104.14 40.005 0)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
+			(at 114.3 40.005 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4775,7 +5347,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 106.68 30.48 0)
+			(at 116.84 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4798,17 +5370,99 @@
 			(uuid "3887b40e-152b-48b2-a6fb-13f00a585553")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678/0b5705a6-92dd-47ca-aedd-78d65c23ceb0"
-					(reference "D4")
+					(reference "LD10")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "SK6812MINI:SK6812MINI")
-		(at 201.93 87.63 0)
+		(lib_id "C_Small:C_Small")
+		(at 43.18 68.58 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2c70e14b-e7e7-4960-96b9-b5bea4f9e2ae")
+		(property "Reference" "C10"
+			(at 45.72 67.3035 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100n"
+			(at 45.72 69.8435 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 43.18 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 43.18 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 43.18 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3350632c-fd15-48d1-a11f-1fbc9919e994")
+		)
+		(pin "2"
+			(uuid "e96d7347-776e-4a76-a4b6-20d4f799de6f")
+		)
+		(instances
+			(project "KoRN"
+				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678/0b5705a6-92dd-47ca-aedd-78d65c23ceb0"
+					(reference "C10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SK6812:SK6812")
+		(at 180.34 49.53 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -4818,8 +5472,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2d1ac537-3e58-4d25-85ac-858dca55cd9e")
-		(property "Reference" "D23"
-			(at 202.438 81.28 0)
+		(property "Reference" "LD21"
+			(at 180.848 43.18 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4830,7 +5484,7 @@
 			)
 		)
 		(property "Value" "SK6812MINI"
-			(at 202.184 93.98 0)
+			(at 175.26 58.166 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4840,8 +5494,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount"
-			(at 200.66 95.25 0)
+		(property "Footprint" "KoRN:SK6812_mini-e_rgb_reversible"
+			(at 179.07 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4852,8 +5506,8 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 199.39 97.155 0)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
+			(at 177.8 59.055 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4865,7 +5519,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 201.93 87.63 0)
+			(at 180.34 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4888,9 +5542,9 @@
 			(uuid "17804477-1161-4a94-8180-565aaa3d00cd")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678/0b5705a6-92dd-47ca-aedd-78d65c23ceb0"
-					(reference "D23")
+					(reference "LD21")
 					(unit 1)
 				)
 			)
@@ -4907,7 +5561,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2d79cc96-37ec-4ca5-b869-f10128aa48f1")
-		(property "Reference" "SW7"
+		(property "Reference" "SW2"
 			(at 52.07 128.778 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4968,9 +5622,9 @@
 			(uuid "4334bcf6-8db8-41cd-9464-c960fe5be216")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678/0b5705a6-92dd-47ca-aedd-78d65c23ceb0"
-					(reference "SW7")
+					(reference "SW2")
 					(unit 1)
 				)
 			)
@@ -4987,7 +5641,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2e9336a1-f75b-4db8-ad34-ab8a3c2759ce")
-		(property "Reference" "D40"
+		(property "Reference" "D18"
 			(at 122.682 155.194 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5071,9 +5725,9 @@
 			(uuid "9260727d-b924-4176-97cf-69522cd4b7dc")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678/0b5705a6-92dd-47ca-aedd-78d65c23ceb0"
-					(reference "D40")
+					(reference "D18")
 					(unit 1)
 				)
 			)
@@ -5081,7 +5735,7 @@
 	)
 	(symbol
 		(lib_id "D_Small_Filled:D_Small_Filled")
-		(at 101.6 175.26 90)
+		(at 82.55 175.26 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5090,8 +5744,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "35e428aa-919c-4e65-99d4-ec0fe143d115")
-		(property "Reference" "D43"
-			(at 103.632 174.244 90)
+		(property "Reference" "D11"
+			(at 84.582 174.244 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5102,7 +5756,7 @@
 			)
 		)
 		(property "Value" "1N4148W"
-			(at 103.632 176.276 90)
+			(at 84.582 176.276 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5113,7 +5767,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 101.6 175.26 90)
+			(at 82.55 175.26 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5124,7 +5778,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 101.6 175.26 90)
+			(at 82.55 175.26 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5135,7 +5789,7 @@
 			)
 		)
 		(property "Description" "Diode, small symbol, filled shape"
-			(at 101.6 175.26 0)
+			(at 82.55 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5146,7 +5800,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 101.6 175.26 0)
+			(at 82.55 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5157,7 +5811,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 101.6 175.26 0)
+			(at 82.55 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5174,9 +5828,9 @@
 			(uuid "1b33b60b-a3a5-4f8a-869a-9d70cf304f34")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678/0b5705a6-92dd-47ca-aedd-78d65c23ceb0"
-					(reference "D43")
+					(reference "D11")
 					(unit 1)
 				)
 			)
@@ -5193,7 +5847,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "36acb1e7-aef7-4f23-8afe-0f099494c92b")
-		(property "Reference" "D29"
+		(property "Reference" "D20"
 			(at 141.732 117.094 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5277,17 +5931,17 @@
 			(uuid "5f71d072-8685-4c02-b155-a13f49d678ad")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678/0b5705a6-92dd-47ca-aedd-78d65c23ceb0"
-					(reference "D29")
+					(reference "D20")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "SK6812MINI:SK6812MINI")
-		(at 163.83 87.63 0)
+		(lib_id "SK6812:SK6812")
+		(at 180.34 87.63 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -5297,8 +5951,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "396b7cf8-6f18-46ba-812e-19bd6c3c2c9e")
-		(property "Reference" "D21"
-			(at 164.338 81.28 0)
+		(property "Reference" "LD23"
+			(at 180.848 81.28 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5309,7 +5963,7 @@
 			)
 		)
 		(property "Value" "SK6812MINI"
-			(at 164.084 93.98 0)
+			(at 180.594 93.98 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5319,8 +5973,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount"
-			(at 162.56 95.25 0)
+		(property "Footprint" "KoRN:SK6812_mini-e_rgb_reversible"
+			(at 179.07 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5331,8 +5985,8 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 161.29 97.155 0)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
+			(at 177.8 97.155 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5344,7 +5998,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 163.83 87.63 0)
+			(at 180.34 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5367,9 +6021,9 @@
 			(uuid "785ab941-b2fb-4af1-8af4-a508f84f22a5")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678/0b5705a6-92dd-47ca-aedd-78d65c23ceb0"
-					(reference "D21")
+					(reference "LD23")
 					(unit 1)
 				)
 			)
@@ -5386,7 +6040,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3a82e0ac-4fc9-4995-9360-eeb0c11ee25f")
-		(property "Reference" "SW2"
+		(property "Reference" "SW4"
 			(at 71.12 109.728 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5447,9 +6101,9 @@
 			(uuid "c0110c1d-ca98-4a88-b303-8f8e5fa029ad")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678/0b5705a6-92dd-47ca-aedd-78d65c23ceb0"
-					(reference "SW2")
+					(reference "SW4")
 					(unit 1)
 				)
 			)
@@ -5466,7 +6120,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3ceb5798-561e-404c-aee5-c43517fcffaa")
-		(property "Reference" "SW13"
+		(property "Reference" "SW3"
 			(at 52.07 147.828 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5527,9 +6181,9 @@
 			(uuid "b2824c54-fd8a-45ea-87c1-f9839511822f")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678/0b5705a6-92dd-47ca-aedd-78d65c23ceb0"
-					(reference "SW13")
+					(reference "SW3")
 					(unit 1)
 				)
 			)
@@ -5546,7 +6200,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "439f23ff-8150-4adc-80f3-98b53d1eda3f")
-		(property "Reference" "D26"
+		(property "Reference" "D8"
 			(at 84.582 117.094 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5630,9 +6284,9 @@
 			(uuid "05b29eca-bcf5-4032-a628-7885ffa60b91")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678/0b5705a6-92dd-47ca-aedd-78d65c23ceb0"
-					(reference "D26")
+					(reference "D8")
 					(unit 1)
 				)
 			)
@@ -5649,7 +6303,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4910fa21-9dfc-4b49-af4c-9155724bfa45")
-		(property "Reference" "D34"
+		(property "Reference" "D17"
 			(at 122.682 136.144 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5733,9 +6387,9 @@
 			(uuid "0ecf5eeb-559c-408c-9e7b-065d45b3a880")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678/0b5705a6-92dd-47ca-aedd-78d65c23ceb0"
-					(reference "D34")
+					(reference "D17")
 					(unit 1)
 				)
 			)
@@ -5743,7 +6397,7 @@
 	)
 	(symbol
 		(lib_id "D_Small_Filled:D_Small_Filled")
-		(at 120.65 175.26 90)
+		(at 101.6 175.26 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5752,8 +6406,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "51492523-6289-43e4-8819-df30bc22bbfd")
-		(property "Reference" "D44"
-			(at 122.682 174.244 90)
+		(property "Reference" "D15"
+			(at 103.632 174.244 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5764,7 +6418,7 @@
 			)
 		)
 		(property "Value" "1N4148W"
-			(at 122.682 176.276 90)
+			(at 103.632 176.276 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5775,7 +6429,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 120.65 175.26 90)
+			(at 101.6 175.26 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5786,7 +6440,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 120.65 175.26 90)
+			(at 101.6 175.26 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5797,7 +6451,7 @@
 			)
 		)
 		(property "Description" "Diode, small symbol, filled shape"
-			(at 120.65 175.26 0)
+			(at 101.6 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5808,7 +6462,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 120.65 175.26 0)
+			(at 101.6 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5819,7 +6473,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 120.65 175.26 0)
+			(at 101.6 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5836,9 +6490,9 @@
 			(uuid "f1e859ac-3ba2-435e-8cf0-1d730e07655c")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678/0b5705a6-92dd-47ca-aedd-78d65c23ceb0"
-					(reference "D44")
+					(reference "D15")
 					(unit 1)
 				)
 			)
@@ -5916,7 +6570,7 @@
 			(uuid "19bc3ccd-68e2-4429-beed-0467a17c1bb9")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678/0b5705a6-92dd-47ca-aedd-78d65c23ceb0"
 					(reference "SW1")
 					(unit 1)
@@ -5935,7 +6589,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "527a070d-878a-433c-89ba-923a8814884b")
-		(property "Reference" "SW15"
+		(property "Reference" "SW10"
 			(at 90.17 147.828 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5996,9 +6650,9 @@
 			(uuid "ef0ba0f9-0714-4e5f-83d5-ab7dfb156341")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678/0b5705a6-92dd-47ca-aedd-78d65c23ceb0"
-					(reference "SW15")
+					(reference "SW10")
 					(unit 1)
 				)
 			)
@@ -6015,7 +6669,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "534feb9b-6512-424e-a920-a1e1961513f6")
-		(property "Reference" "SW14"
+		(property "Reference" "SW6"
 			(at 71.12 147.828 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6076,17 +6730,17 @@
 			(uuid "bbdf56b0-d03d-4bf5-a6a9-feb34f3b2224")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678/0b5705a6-92dd-47ca-aedd-78d65c23ceb0"
-					(reference "SW14")
+					(reference "SW6")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "SK6812MINI:SK6812MINI")
-		(at 49.53 49.53 0)
+		(lib_id "SK6812:SK6812")
+		(at 59.69 49.53 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -6096,8 +6750,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "538f062b-4e5f-4ef7-be01-0a6efc026a59")
-		(property "Reference" "D7"
-			(at 50.038 43.18 0)
+		(property "Reference" "LD2"
+			(at 60.198 43.18 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6108,7 +6762,7 @@
 			)
 		)
 		(property "Value" "SK6812MINI"
-			(at 49.784 55.88 0)
+			(at 59.944 55.88 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6118,8 +6772,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount"
-			(at 48.26 57.15 0)
+		(property "Footprint" "KoRN:SK6812_mini-e_rgb_reversible"
+			(at 58.42 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6130,8 +6784,8 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 46.99 59.055 0)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
+			(at 57.15 59.055 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6143,7 +6797,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 49.53 49.53 0)
+			(at 59.69 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6166,17 +6820,17 @@
 			(uuid "75479345-1019-4b54-bc12-1abc32a70a6b")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678/0b5705a6-92dd-47ca-aedd-78d65c23ceb0"
-					(reference "D7")
+					(reference "LD2")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "SK6812MINI:SK6812MINI")
-		(at 144.78 49.53 0)
+		(lib_id "SK6812:SK6812")
+		(at 154.94 49.53 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -6186,8 +6840,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5471d6ba-49e6-4ce4-9b86-9a819182957f")
-		(property "Reference" "D12"
-			(at 145.288 43.18 0)
+		(property "Reference" "LD18"
+			(at 155.448 43.18 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6198,7 +6852,7 @@
 			)
 		)
 		(property "Value" "SK6812MINI"
-			(at 145.034 55.88 0)
+			(at 155.194 55.88 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6208,8 +6862,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount"
-			(at 143.51 57.15 0)
+		(property "Footprint" "KoRN:SK6812_mini-e_rgb_reversible"
+			(at 153.67 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6220,8 +6874,8 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 142.24 59.055 0)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
+			(at 152.4 59.055 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6233,7 +6887,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 144.78 49.53 0)
+			(at 154.94 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6256,17 +6910,17 @@
 			(uuid "b82e5fc2-4f71-4eb3-a70e-d266409a3f48")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678/0b5705a6-92dd-47ca-aedd-78d65c23ceb0"
-					(reference "D12")
+					(reference "LD18")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "SK6812MINI:SK6812MINI")
-		(at 144.78 30.48 0)
+		(lib_id "SK6812:SK6812")
+		(at 154.94 30.48 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -6276,8 +6930,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "557e5402-bbea-47bc-abb5-476b9b476a27")
-		(property "Reference" "D6"
-			(at 145.288 24.13 0)
+		(property "Reference" "LD17"
+			(at 155.448 24.13 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6288,7 +6942,7 @@
 			)
 		)
 		(property "Value" "SK6812MINI"
-			(at 145.034 36.83 0)
+			(at 155.194 36.83 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6298,8 +6952,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount"
-			(at 143.51 38.1 0)
+		(property "Footprint" "KoRN:SK6812_mini-e_rgb_reversible"
+			(at 153.67 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6310,8 +6964,8 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 142.24 40.005 0)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
+			(at 152.4 40.005 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6323,7 +6977,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 144.78 30.48 0)
+			(at 154.94 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6346,9 +7000,9 @@
 			(uuid "07e850d9-b22f-4221-98fc-cc0f2fee6fe6")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678/0b5705a6-92dd-47ca-aedd-78d65c23ceb0"
-					(reference "D6")
+					(reference "LD17")
 					(unit 1)
 				)
 			)
@@ -6365,7 +7019,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "561c861e-1de8-4fe6-a00d-96d100ada73c")
-		(property "Reference" "D32"
+		(property "Reference" "D9"
 			(at 84.582 136.144 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6449,9 +7103,9 @@
 			(uuid "b018d68b-21e6-4a3b-8b67-28e7f0b4f145")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678/0b5705a6-92dd-47ca-aedd-78d65c23ceb0"
-					(reference "D32")
+					(reference "D9")
 					(unit 1)
 				)
 			)
@@ -6468,7 +7122,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5bbae181-832d-4a45-82fa-5383dce59d4e")
-		(property "Reference" "SW3"
+		(property "Reference" "SW8"
 			(at 90.17 109.728 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6529,9 +7183,9 @@
 			(uuid "8a4e9c0f-e757-4d51-a284-9c3e7169662e")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678/0b5705a6-92dd-47ca-aedd-78d65c23ceb0"
-					(reference "SW3")
+					(reference "SW8")
 					(unit 1)
 				)
 			)
@@ -6548,7 +7202,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5feb2137-3234-4383-82da-3777a5987d80")
-		(property "Reference" "D31"
+		(property "Reference" "D5"
 			(at 65.532 136.144 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6632,17 +7286,17 @@
 			(uuid "ca3cce91-6405-4a8f-9dae-0009149e2f32")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678/0b5705a6-92dd-47ca-aedd-78d65c23ceb0"
-					(reference "D31")
+					(reference "D5")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "SK6812MINI:SK6812MINI")
-		(at 125.73 30.48 0)
+		(lib_id "SK6812:SK6812")
+		(at 135.89 30.48 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -6652,8 +7306,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6678849c-4aa8-4a70-bc6e-6c87f26cf3fe")
-		(property "Reference" "D5"
-			(at 126.238 24.13 0)
+		(property "Reference" "LD13"
+			(at 136.398 24.13 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6664,7 +7318,7 @@
 			)
 		)
 		(property "Value" "SK6812MINI"
-			(at 125.984 36.83 0)
+			(at 136.144 36.83 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6674,8 +7328,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount"
-			(at 124.46 38.1 0)
+		(property "Footprint" "KoRN:SK6812_mini-e_rgb_reversible"
+			(at 134.62 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6686,8 +7340,8 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 123.19 40.005 0)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
+			(at 133.35 40.005 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6699,7 +7353,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 125.73 30.48 0)
+			(at 135.89 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6722,9 +7376,9 @@
 			(uuid "7e19197e-d0b0-4e0c-bf82-41a145d8ac20")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678/0b5705a6-92dd-47ca-aedd-78d65c23ceb0"
-					(reference "D5")
+					(reference "LD13")
 					(unit 1)
 				)
 			)
@@ -6732,7 +7386,7 @@
 	)
 	(symbol
 		(lib_id "GND:GND")
-		(at 38.1 76.2 0)
+		(at 35.56 76.2 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6742,7 +7396,7 @@
 		(dnp no)
 		(uuid "66d2e1b3-f7e7-4641-80ba-234011a74fee")
 		(property "Reference" "#PWR028"
-			(at 38.1 82.55 0)
+			(at 35.56 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6753,7 +7407,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 38.1 80.264 0)
+			(at 35.56 80.264 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6763,7 +7417,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 38.1 76.2 0)
+			(at 35.56 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6774,7 +7428,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 38.1 76.2 0)
+			(at 35.56 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6785,7 +7439,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 38.1 76.2 0)
+			(at 35.56 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6799,7 +7453,7 @@
 			(uuid "eb7cbdf6-5810-4920-a140-75e319d68ee6")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678/0b5705a6-92dd-47ca-aedd-78d65c23ceb0"
 					(reference "#PWR028")
 					(unit 1)
@@ -6818,7 +7472,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6803e476-034d-47eb-a7de-bb6d19761577")
-		(property "Reference" "SW6"
+		(property "Reference" "SW20"
 			(at 147.32 109.728 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6879,17 +7533,17 @@
 			(uuid "c683b900-c87e-451d-9121-4cbd1c72b759")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678/0b5705a6-92dd-47ca-aedd-78d65c23ceb0"
-					(reference "SW6")
+					(reference "SW20")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "SK6812MINI:SK6812MINI")
-		(at 87.63 68.58 0)
+		(lib_id "SK6812:SK6812")
+		(at 97.79 68.58 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -6899,8 +7553,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6afcfcb9-e62f-4dfe-97e9-eebe07e941f9")
-		(property "Reference" "D15"
-			(at 88.138 62.23 0)
+		(property "Reference" "LD9"
+			(at 98.298 62.23 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6911,7 +7565,7 @@
 			)
 		)
 		(property "Value" "SK6812MINI"
-			(at 87.884 74.93 0)
+			(at 98.044 74.93 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6921,8 +7575,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount"
-			(at 86.36 76.2 0)
+		(property "Footprint" "KoRN:SK6812_mini-e_rgb_reversible"
+			(at 96.52 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6933,8 +7587,8 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 85.09 78.105 0)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
+			(at 95.25 78.105 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6946,7 +7600,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 87.63 68.58 0)
+			(at 97.79 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6969,9 +7623,9 @@
 			(uuid "0a1e47ad-5139-4b6e-8ad0-88abb286a9f9")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678/0b5705a6-92dd-47ca-aedd-78d65c23ceb0"
-					(reference "D15")
+					(reference "LD9")
 					(unit 1)
 				)
 			)
@@ -6988,7 +7642,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6f4ff842-8271-483b-bed8-d23a8fc53e5a")
-		(property "Reference" "D36"
+		(property "Reference" "D3"
 			(at 46.482 155.194 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7072,17 +7726,99 @@
 			(uuid "f33d8cb9-7aa2-49fc-b05f-9143474f8966")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678/0b5705a6-92dd-47ca-aedd-78d65c23ceb0"
-					(reference "D36")
+					(reference "D3")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "SK6812MINI:SK6812MINI")
-		(at 106.68 49.53 0)
+		(lib_id "C_Small:C_Small")
+		(at 119.38 87.63 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "712c62c8-1c0f-4fdb-9520-8ecfb86b0577")
+		(property "Reference" "C11"
+			(at 121.92 86.3535 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100n"
+			(at 121.92 88.8935 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 119.38 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 119.38 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 119.38 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a1003280-1a9c-4036-8645-0f0fa1f9e262")
+		)
+		(pin "2"
+			(uuid "94302d59-e9d3-4504-bf0a-eec5da65eefd")
+		)
+		(instances
+			(project "KoRN"
+				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678/0b5705a6-92dd-47ca-aedd-78d65c23ceb0"
+					(reference "C11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SK6812:SK6812")
+		(at 116.84 49.53 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -7092,8 +7828,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "75d5986e-e7ec-4ccb-bca4-aeff6c487e75")
-		(property "Reference" "D10"
-			(at 107.188 43.18 0)
+		(property "Reference" "LD11"
+			(at 117.348 43.18 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7104,7 +7840,7 @@
 			)
 		)
 		(property "Value" "SK6812MINI"
-			(at 106.934 55.88 0)
+			(at 117.094 55.88 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7114,8 +7850,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount"
-			(at 105.41 57.15 0)
+		(property "Footprint" "KoRN:SK6812_mini-e_rgb_reversible"
+			(at 115.57 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7126,8 +7862,8 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 104.14 59.055 0)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
+			(at 114.3 59.055 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7139,7 +7875,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 106.68 49.53 0)
+			(at 116.84 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7162,9 +7898,9 @@
 			(uuid "5551c4d3-4680-43bc-956e-d94f66b36166")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678/0b5705a6-92dd-47ca-aedd-78d65c23ceb0"
-					(reference "D10")
+					(reference "LD11")
 					(unit 1)
 				)
 			)
@@ -7181,7 +7917,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "774e5124-0fa8-498a-a57b-36a16efe5cec")
-		(property "Reference" "SW12"
+		(property "Reference" "SW21"
 			(at 147.32 128.778 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7242,9 +7978,9 @@
 			(uuid "76f04fa4-2074-41d1-b24b-c8a52aa173e4")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678/0b5705a6-92dd-47ca-aedd-78d65c23ceb0"
-					(reference "SW12")
+					(reference "SW21")
 					(unit 1)
 				)
 			)
@@ -7252,7 +7988,7 @@
 	)
 	(symbol
 		(lib_id "SW_Push:SW_Push")
-		(at 109.22 171.45 0)
+		(at 90.17 171.45 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7261,8 +7997,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "77aa506d-4fbc-4baa-a7da-bb1dcda0e4d6")
-		(property "Reference" "SW20"
-			(at 109.22 166.878 0)
+		(property "Reference" "SW11"
+			(at 90.17 166.878 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7272,7 +8008,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 109.22 166.37 0)
+			(at 90.17 166.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7283,7 +8019,7 @@
 			)
 		)
 		(property "Footprint" "keyswitches:Kailh_socket_PG1350_reversible"
-			(at 109.22 166.37 0)
+			(at 90.17 166.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7294,7 +8030,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 109.22 166.37 0)
+			(at 90.17 166.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7305,7 +8041,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 109.22 171.45 0)
+			(at 90.17 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7322,17 +8058,120 @@
 			(uuid "0e2cfb19-2d1b-4ae7-9012-a77b923d3336")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678/0b5705a6-92dd-47ca-aedd-78d65c23ceb0"
-					(reference "SW20")
+					(reference "SW11")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "SK6812MINI:SK6812MINI")
-		(at 125.73 68.58 0)
+		(lib_id "D_Small_Filled:D_Small_Filled")
+		(at 120.65 175.26 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7c1a1b33-4773-4525-adb9-32b7d423fd29")
+		(property "Reference" "D19"
+			(at 122.682 174.244 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 122.682 176.276 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 120.65 175.26 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 120.65 175.26 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Diode, small symbol, filled shape"
+			(at 120.65 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 120.65 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 120.65 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7e7d1a27-cc9a-4ae4-a1e6-e20b75812841")
+		)
+		(pin "2"
+			(uuid "bb209188-9c5e-479e-99af-daa9b8af22aa")
+		)
+		(instances
+			(project "KoRN"
+				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678/0b5705a6-92dd-47ca-aedd-78d65c23ceb0"
+					(reference "D19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SK6812:SK6812")
+		(at 135.89 68.58 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -7342,8 +8181,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "86ef6088-d5e6-4709-9f0d-608d1a8dd609")
-		(property "Reference" "D17"
-			(at 126.238 62.23 0)
+		(property "Reference" "LD15"
+			(at 136.398 62.23 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7354,7 +8193,7 @@
 			)
 		)
 		(property "Value" "SK6812MINI"
-			(at 125.984 74.93 0)
+			(at 136.144 74.93 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7364,8 +8203,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount"
-			(at 124.46 76.2 0)
+		(property "Footprint" "KoRN:SK6812_mini-e_rgb_reversible"
+			(at 134.62 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7376,8 +8215,8 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 123.19 78.105 0)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
+			(at 133.35 78.105 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7389,7 +8228,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 125.73 68.58 0)
+			(at 135.89 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7412,9 +8251,9 @@
 			(uuid "3c10c686-16e9-41a2-bc21-dd85e3690e40")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678/0b5705a6-92dd-47ca-aedd-78d65c23ceb0"
-					(reference "D17")
+					(reference "LD15")
 					(unit 1)
 				)
 			)
@@ -7431,7 +8270,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "889018ac-2364-4849-9892-f39f6e7f900a")
-		(property "Reference" "D28"
+		(property "Reference" "D16"
 			(at 122.682 117.094 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7515,17 +8354,17 @@
 			(uuid "65aaa4fa-9b2e-4d6e-9a02-0141353a785a")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678/0b5705a6-92dd-47ca-aedd-78d65c23ceb0"
-					(reference "D28")
+					(reference "D16")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "SK6812MINI:SK6812MINI")
-		(at 49.53 30.48 0)
+		(lib_id "SK6812:SK6812")
+		(at 59.69 30.48 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -7535,8 +8374,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "88d17704-7029-4dba-a69d-2c200c861d3d")
-		(property "Reference" "D1"
-			(at 50.038 24.13 0)
+		(property "Reference" "LD1"
+			(at 60.198 24.13 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7547,7 +8386,7 @@
 			)
 		)
 		(property "Value" "SK6812MINI"
-			(at 49.784 36.83 0)
+			(at 59.944 36.83 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7557,8 +8396,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount"
-			(at 48.26 38.1 0)
+		(property "Footprint" "KoRN:SK6812_mini-e_rgb_reversible"
+			(at 58.42 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7569,8 +8408,8 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 46.99 40.005 0)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
+			(at 57.15 40.005 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7582,7 +8421,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 49.53 30.48 0)
+			(at 59.69 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7605,9 +8444,9 @@
 			(uuid "c6d6b477-ce65-4c36-8cea-c9cb13d2f426")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678/0b5705a6-92dd-47ca-aedd-78d65c23ceb0"
-					(reference "D1")
+					(reference "LD1")
 					(unit 1)
 				)
 			)
@@ -7685,7 +8524,7 @@
 			(uuid "b513461f-539f-4cc8-a32d-ee0731e348af")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678/0b5705a6-92dd-47ca-aedd-78d65c23ceb0"
 					(reference "SW9")
 					(unit 1)
@@ -7704,7 +8543,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "93479e23-92f8-4020-84a6-226347febfb1")
-		(property "Reference" "SW18"
+		(property "Reference" "SW22"
 			(at 147.32 147.828 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7765,17 +8604,17 @@
 			(uuid "80767ddb-194d-4130-85fa-8fe8354a3155")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678/0b5705a6-92dd-47ca-aedd-78d65c23ceb0"
-					(reference "SW18")
+					(reference "SW22")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "SK6812MINI:SK6812MINI")
-		(at 49.53 68.58 0)
+		(lib_id "SK6812:SK6812")
+		(at 59.69 68.58 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -7785,8 +8624,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "962bd569-e36c-4d77-83ed-18f33e89ee4c")
-		(property "Reference" "D13"
-			(at 50.038 62.23 0)
+		(property "Reference" "LD3"
+			(at 60.198 62.23 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7797,7 +8636,7 @@
 			)
 		)
 		(property "Value" "SK6812MINI"
-			(at 49.784 74.93 0)
+			(at 59.944 74.93 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7807,8 +8646,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount"
-			(at 48.26 76.2 0)
+		(property "Footprint" "KoRN:SK6812_mini-e_rgb_reversible"
+			(at 58.42 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7819,8 +8658,8 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 46.99 78.105 0)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
+			(at 57.15 78.105 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7832,7 +8671,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 49.53 68.58 0)
+			(at 59.69 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7855,9 +8694,9 @@
 			(uuid "5352e42d-cdbb-40c0-81bc-43d06b879f99")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678/0b5705a6-92dd-47ca-aedd-78d65c23ceb0"
-					(reference "D13")
+					(reference "LD3")
 					(unit 1)
 				)
 			)
@@ -7865,7 +8704,7 @@
 	)
 	(symbol
 		(lib_id "SW_Push:SW_Push")
-		(at 128.27 171.45 0)
+		(at 109.22 171.45 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7874,8 +8713,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "96bc8f47-877d-4072-84c6-c848bd544938")
-		(property "Reference" "SW21"
-			(at 128.27 166.878 0)
+		(property "Reference" "SW15"
+			(at 109.22 166.878 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7885,7 +8724,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 128.27 166.37 0)
+			(at 109.22 166.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7896,7 +8735,7 @@
 			)
 		)
 		(property "Footprint" "keyswitches:Kailh_socket_PG1350_reversible"
-			(at 128.27 166.37 0)
+			(at 109.22 166.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7907,7 +8746,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 128.27 166.37 0)
+			(at 109.22 166.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7918,7 +8757,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 128.27 171.45 0)
+			(at 109.22 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7935,9 +8774,9 @@
 			(uuid "5a2ec65f-27b0-4008-8ee8-6fc8b45386ff")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678/0b5705a6-92dd-47ca-aedd-78d65c23ceb0"
-					(reference "SW21")
+					(reference "SW15")
 					(unit 1)
 				)
 			)
@@ -7954,7 +8793,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "97282952-11a3-4439-a90a-983781a869d4")
-		(property "Reference" "D38"
+		(property "Reference" "D10"
 			(at 84.582 155.194 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8038,17 +8877,99 @@
 			(uuid "77879c13-bf9f-4c2f-9347-62bfa24921aa")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678/0b5705a6-92dd-47ca-aedd-78d65c23ceb0"
-					(reference "D38")
+					(reference "D10")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "SK6812MINI:SK6812MINI")
-		(at 87.63 49.53 0)
+		(lib_id "C_Small:C_Small")
+		(at 43.18 30.48 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9aabf6e4-d79c-451c-953b-827e1ea64052")
+		(property "Reference" "C8"
+			(at 45.72 29.2035 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100n"
+			(at 45.72 31.7435 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 43.18 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 43.18 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 43.18 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "58559c94-03fb-420f-89b6-dfb3aa7434c4")
+		)
+		(pin "2"
+			(uuid "ab991be8-1969-4854-a702-d6622d1a3e95")
+		)
+		(instances
+			(project "KoRN"
+				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678/0b5705a6-92dd-47ca-aedd-78d65c23ceb0"
+					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SK6812:SK6812")
+		(at 97.79 49.53 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -8058,8 +8979,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9f6d873b-941a-4980-9ea7-dd07b634e133")
-		(property "Reference" "D9"
-			(at 88.138 43.18 0)
+		(property "Reference" "LD8"
+			(at 98.298 43.18 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8070,7 +8991,7 @@
 			)
 		)
 		(property "Value" "SK6812MINI"
-			(at 87.884 55.88 0)
+			(at 98.044 55.88 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8080,8 +9001,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount"
-			(at 86.36 57.15 0)
+		(property "Footprint" "KoRN:SK6812_mini-e_rgb_reversible"
+			(at 96.52 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8092,8 +9013,8 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 85.09 59.055 0)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
+			(at 95.25 59.055 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8105,7 +9026,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 87.63 49.53 0)
+			(at 97.79 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8128,17 +9049,17 @@
 			(uuid "a9c8cbc4-40ca-45e7-9d58-ba56b009d669")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678/0b5705a6-92dd-47ca-aedd-78d65c23ceb0"
-					(reference "D9")
+					(reference "LD8")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Jumper_2_Small_Open:Jumper_2_Small_Open")
-		(at 182.88 77.47 0)
+		(lib_id "SK6812:SK6812")
+		(at 200.66 87.63 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8146,19 +9067,55 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "acee0939-2d17-4de3-8de5-a666b3ec7f84")
-		(property "Reference" "JP37"
-			(at 182.88 74.93 0)
+		(uuid "ab6ca890-689b-4d6a-b62a-15b7da84cb4e")
+		(property "Reference" "LD24"
+			(at 201.422 81.28 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "EncBot"
-			(at 182.88 73.66 0)
+		(property "Value" "SK6812MINI"
+			(at 206.502 91.44 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "KoRN:SK6812_mini-e_rgb_reversible"
+			(at 201.93 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
+			(at 203.2 97.155 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 200.66 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8168,8 +9125,62 @@
 				)
 			)
 		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
-			(at 182.88 77.47 0)
+		(pin "2"
+			(uuid "0778c492-8a72-4e61-aeee-d2efdadab554")
+		)
+		(pin "3"
+			(uuid "afe35b48-4ad2-4ff7-bdca-102751c0e2ee")
+		)
+		(pin "1"
+			(uuid "db8f2443-b607-4d49-9f14-1bfe6572324e")
+		)
+		(pin "4"
+			(uuid "81640c3d-bc05-40a4-9007-99fa94f7ffbc")
+		)
+		(instances
+			(project "KoRN"
+				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678/0b5705a6-92dd-47ca-aedd-78d65c23ceb0"
+					(reference "LD24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper_2_Small_Open:Jumper_2_Small_Open")
+		(at 187.96 63.5 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "acee0939-2d17-4de3-8de5-a666b3ec7f84")
+		(property "Reference" "JP38"
+			(at 190.246 63.5 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "EncBot"
+			(at 191.77 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "KoRN:SolderJumper"
+			(at 187.96 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8180,7 +9191,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 182.88 77.47 0)
+			(at 187.96 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8191,7 +9202,7 @@
 			)
 		)
 		(property "Description" "Jumper, 2-pole, small symbol, open"
-			(at 182.88 77.47 0)
+			(at 187.96 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8208,9 +9219,9 @@
 			(uuid "ca3eac7f-6dfe-4aea-8658-01ff11ce54a4")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678/0b5705a6-92dd-47ca-aedd-78d65c23ceb0"
-					(reference "JP37")
+					(reference "JP38")
 					(unit 1)
 				)
 			)
@@ -8227,7 +9238,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b06610f3-2c57-41ee-a307-0b6bdf152884")
-		(property "Reference" "D35"
+		(property "Reference" "D21"
 			(at 141.732 136.144 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8311,9 +9322,9 @@
 			(uuid "13542732-7700-4f95-b492-2b2651c47397")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678/0b5705a6-92dd-47ca-aedd-78d65c23ceb0"
-					(reference "D35")
+					(reference "D21")
 					(unit 1)
 				)
 			)
@@ -8321,7 +9332,7 @@
 	)
 	(symbol
 		(lib_id "VCC:VCC")
-		(at 161.29 22.86 0)
+		(at 171.45 22.86 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8330,8 +9341,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b28b1462-892a-475d-a610-3c9472adf4f0")
-		(property "Reference" "#PWR027"
-			(at 161.29 26.67 0)
+		(property "Reference" "#PWR031"
+			(at 171.45 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8342,7 +9353,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 161.29 18.542 0)
+			(at 171.45 18.542 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8352,7 +9363,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 161.29 22.86 0)
+			(at 171.45 22.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8363,7 +9374,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 161.29 22.86 0)
+			(at 171.45 22.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8374,7 +9385,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 161.29 22.86 0)
+			(at 171.45 22.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8388,17 +9399,17 @@
 			(uuid "e01059d3-b3b7-4a41-afee-dbbcda08cce7")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678/0b5705a6-92dd-47ca-aedd-78d65c23ceb0"
-					(reference "#PWR027")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "SK6812MINI:SK6812MINI")
-		(at 87.63 30.48 0)
+		(lib_id "SK6812:SK6812")
+		(at 97.79 30.48 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -8408,8 +9419,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b7fb8b16-eacc-4d3b-a928-c655bf15139c")
-		(property "Reference" "D3"
-			(at 88.138 24.13 0)
+		(property "Reference" "LD7"
+			(at 98.298 24.13 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8420,7 +9431,7 @@
 			)
 		)
 		(property "Value" "SK6812MINI"
-			(at 87.884 36.83 0)
+			(at 98.044 36.83 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8430,8 +9441,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount"
-			(at 86.36 38.1 0)
+		(property "Footprint" "KoRN:SK6812_mini-e_rgb_reversible"
+			(at 96.52 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8442,8 +9453,8 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 85.09 40.005 0)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
+			(at 95.25 40.005 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8455,7 +9466,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 87.63 30.48 0)
+			(at 97.79 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8478,9 +9489,9 @@
 			(uuid "848724fa-bf17-4685-85f4-4a0c409bed2e")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678/0b5705a6-92dd-47ca-aedd-78d65c23ceb0"
-					(reference "D3")
+					(reference "LD7")
 					(unit 1)
 				)
 			)
@@ -8497,7 +9508,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b93d2afb-689a-440b-9b2d-b2cefe798304")
-		(property "Reference" "SW5"
+		(property "Reference" "SW16"
 			(at 128.27 109.728 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8558,9 +9569,9 @@
 			(uuid "0f667fad-6f3d-4b30-add2-4202058d108b")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678/0b5705a6-92dd-47ca-aedd-78d65c23ceb0"
-					(reference "SW5")
+					(reference "SW16")
 					(unit 1)
 				)
 			)
@@ -8650,7 +9661,7 @@
 			(uuid "88c67c9b-a0cf-4923-81ae-fba6a51ac7d1")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678/0b5705a6-92dd-47ca-aedd-78d65c23ceb0"
 					(reference "RE1")
 					(unit 1)
@@ -8669,7 +9680,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c3b71d69-6b7c-48fc-8614-183455c02604")
-		(property "Reference" "D39"
+		(property "Reference" "D14"
 			(at 103.632 155.194 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8753,9 +9764,9 @@
 			(uuid "620017af-1e1f-4db3-aa33-56a10c58cafd")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678/0b5705a6-92dd-47ca-aedd-78d65c23ceb0"
-					(reference "D39")
+					(reference "D14")
 					(unit 1)
 				)
 			)
@@ -8772,7 +9783,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c4e239e7-132a-44e9-ba40-e6460984519a")
-		(property "Reference" "SW17"
+		(property "Reference" "SW18"
 			(at 128.27 147.828 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8833,9 +9844,9 @@
 			(uuid "501f5dcb-2705-4f23-9806-6d96f1ab7db0")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678/0b5705a6-92dd-47ca-aedd-78d65c23ceb0"
-					(reference "SW17")
+					(reference "SW18")
 					(unit 1)
 				)
 			)
@@ -8852,7 +9863,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c626a785-98fc-4a81-9e11-a7391dd1a368")
-		(property "Reference" "D41"
+		(property "Reference" "D22"
 			(at 141.732 155.194 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8936,17 +9947,17 @@
 			(uuid "f68aa12f-32c3-463a-9dd2-cd0d96ce7e5d")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678/0b5705a6-92dd-47ca-aedd-78d65c23ceb0"
-					(reference "D41")
+					(reference "D22")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "SK6812MINI:SK6812MINI")
-		(at 144.78 87.63 0)
+		(lib_id "SK6812:SK6812")
+		(at 154.94 87.63 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -8956,8 +9967,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c9920935-f2ba-4974-bf8d-fc4cde5c2ff5")
-		(property "Reference" "D20"
-			(at 145.288 81.28 0)
+		(property "Reference" "LD20"
+			(at 155.448 81.28 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8968,7 +9979,7 @@
 			)
 		)
 		(property "Value" "SK6812MINI"
-			(at 145.034 93.98 0)
+			(at 155.194 93.98 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8978,8 +9989,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount"
-			(at 143.51 95.25 0)
+		(property "Footprint" "KoRN:SK6812_mini-e_rgb_reversible"
+			(at 153.67 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8990,8 +10001,8 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 142.24 97.155 0)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
+			(at 152.4 97.155 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9003,7 +10014,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 144.78 87.63 0)
+			(at 154.94 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9026,9 +10037,9 @@
 			(uuid "6628f2ea-b94d-4a4d-abff-710b6e1a6651")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678/0b5705a6-92dd-47ca-aedd-78d65c23ceb0"
-					(reference "D20")
+					(reference "LD20")
 					(unit 1)
 				)
 			)
@@ -9045,7 +10056,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cb2b13bb-90b1-43d4-be19-bb473bfe0bac")
-		(property "Reference" "SW11"
+		(property "Reference" "SW17"
 			(at 128.27 128.778 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9106,9 +10117,9 @@
 			(uuid "e1449d73-f582-472b-bf1d-7be528adfa5b")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678/0b5705a6-92dd-47ca-aedd-78d65c23ceb0"
-					(reference "SW11")
+					(reference "SW17")
 					(unit 1)
 				)
 			)
@@ -9125,7 +10136,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cfb2b343-8c77-4bae-8723-ae15692b5941")
-		(property "Reference" "SW4"
+		(property "Reference" "SW12"
 			(at 109.22 109.728 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9186,9 +10197,9 @@
 			(uuid "764aa25e-fc50-4798-a840-77d2b576f088")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678/0b5705a6-92dd-47ca-aedd-78d65c23ceb0"
-					(reference "SW4")
+					(reference "SW12")
 					(unit 1)
 				)
 			)
@@ -9264,7 +10275,7 @@
 			(uuid "371a0380-8c2a-4613-bb4b-939df1792a8b")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678/0b5705a6-92dd-47ca-aedd-78d65c23ceb0"
 					(reference "#PWR029")
 					(unit 1)
@@ -9273,8 +10284,8 @@
 		)
 	)
 	(symbol
-		(lib_id "SK6812MINI:SK6812MINI")
-		(at 106.68 68.58 0)
+		(lib_id "SK6812:SK6812")
+		(at 116.84 68.58 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -9284,8 +10295,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d61c86d9-f2f5-442f-b39c-e6a584cfff33")
-		(property "Reference" "D16"
-			(at 107.188 62.23 0)
+		(property "Reference" "LD12"
+			(at 117.348 62.23 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9296,7 +10307,7 @@
 			)
 		)
 		(property "Value" "SK6812MINI"
-			(at 106.934 74.93 0)
+			(at 117.094 74.93 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9306,8 +10317,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount"
-			(at 105.41 76.2 0)
+		(property "Footprint" "KoRN:SK6812_mini-e_rgb_reversible"
+			(at 115.57 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9318,8 +10329,8 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 104.14 78.105 0)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
+			(at 114.3 78.105 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9331,7 +10342,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 106.68 68.58 0)
+			(at 116.84 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9354,17 +10365,17 @@
 			(uuid "c8e041d5-a612-4fb4-afce-46c637319f1b")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678/0b5705a6-92dd-47ca-aedd-78d65c23ceb0"
-					(reference "D16")
+					(reference "LD12")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "SK6812MINI:SK6812MINI")
-		(at 68.58 49.53 0)
+		(lib_id "SK6812:SK6812")
+		(at 78.74 49.53 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -9374,8 +10385,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d9752614-2e40-45bf-a0bf-6e49f6f36c43")
-		(property "Reference" "D8"
-			(at 69.088 43.18 0)
+		(property "Reference" "LD5"
+			(at 79.248 43.18 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9386,7 +10397,7 @@
 			)
 		)
 		(property "Value" "SK6812MINI"
-			(at 68.834 55.88 0)
+			(at 78.994 55.88 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9396,8 +10407,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount"
-			(at 67.31 57.15 0)
+		(property "Footprint" "KoRN:SK6812_mini-e_rgb_reversible"
+			(at 77.47 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9408,8 +10419,8 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 66.04 59.055 0)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
+			(at 76.2 59.055 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9421,7 +10432,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 68.58 49.53 0)
+			(at 78.74 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9444,9 +10455,9 @@
 			(uuid "7d8d30b9-fa72-42e5-aeff-9079cf0707c4")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678/0b5705a6-92dd-47ca-aedd-78d65c23ceb0"
-					(reference "D8")
+					(reference "LD5")
 					(unit 1)
 				)
 			)
@@ -9463,7 +10474,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "dab750b5-4014-4434-8cd1-89181e027a14")
-		(property "Reference" "SW16"
+		(property "Reference" "SW14"
 			(at 109.22 147.828 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9524,9 +10535,9 @@
 			(uuid "003a1d3d-bbcd-44f5-bbd6-b166d7aa7d07")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678/0b5705a6-92dd-47ca-aedd-78d65c23ceb0"
-					(reference "SW16")
+					(reference "SW14")
 					(unit 1)
 				)
 			)
@@ -9543,7 +10554,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "db6e43ab-f14c-41ff-b27a-985deb0b747f")
-		(property "Reference" "D30"
+		(property "Reference" "D2"
 			(at 46.482 136.144 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9627,9 +10638,9 @@
 			(uuid "552b2c23-a4c3-4ba6-afdc-93d47667ff35")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678/0b5705a6-92dd-47ca-aedd-78d65c23ceb0"
-					(reference "D30")
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -9646,7 +10657,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "de70e827-5332-406e-bfaa-125a9e30a530")
-		(property "Reference" "D27"
+		(property "Reference" "D12"
 			(at 103.632 117.094 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9730,9 +10741,9 @@
 			(uuid "ed8933eb-9815-41e6-864d-131e0e74f625")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678/0b5705a6-92dd-47ca-aedd-78d65c23ceb0"
-					(reference "D27")
+					(reference "D12")
 					(unit 1)
 				)
 			)
@@ -9807,7 +10818,7 @@
 			(uuid "ebd0404a-d102-4791-98c0-c6e602ad1037")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678/0b5705a6-92dd-47ca-aedd-78d65c23ceb0"
 					(reference "#PWR030")
 					(unit 1)
@@ -9817,7 +10828,7 @@
 	)
 	(symbol
 		(lib_id "D_Small_Filled:D_Small_Filled")
-		(at 82.55 175.26 90)
+		(at 63.5 175.26 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9826,8 +10837,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e052c435-f9df-4c65-94fe-1b0e7d968343")
-		(property "Reference" "D42"
-			(at 84.582 174.244 90)
+		(property "Reference" "D7"
+			(at 65.532 174.244 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9838,7 +10849,7 @@
 			)
 		)
 		(property "Value" "1N4148W"
-			(at 84.582 176.276 90)
+			(at 65.532 176.276 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9849,7 +10860,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 82.55 175.26 90)
+			(at 63.5 175.26 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9860,7 +10871,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 82.55 175.26 90)
+			(at 63.5 175.26 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9871,7 +10882,7 @@
 			)
 		)
 		(property "Description" "Diode, small symbol, filled shape"
-			(at 82.55 175.26 0)
+			(at 63.5 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9882,7 +10893,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 82.55 175.26 0)
+			(at 63.5 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9893,7 +10904,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 82.55 175.26 0)
+			(at 63.5 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9910,17 +10921,17 @@
 			(uuid "25f9adda-09c6-415a-a7d1-1efe42dca798")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678/0b5705a6-92dd-47ca-aedd-78d65c23ceb0"
-					(reference "D42")
+					(reference "D7")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "SK6812MINI:SK6812MINI")
-		(at 125.73 49.53 0)
+		(lib_id "SK6812:SK6812")
+		(at 135.89 49.53 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -9930,8 +10941,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e4313ed4-242d-41fd-993a-f19c33d55eb2")
-		(property "Reference" "D11"
-			(at 126.238 43.18 0)
+		(property "Reference" "LD14"
+			(at 136.398 43.18 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9942,7 +10953,7 @@
 			)
 		)
 		(property "Value" "SK6812MINI"
-			(at 125.984 55.88 0)
+			(at 136.144 55.88 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9952,8 +10963,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount"
-			(at 124.46 57.15 0)
+		(property "Footprint" "KoRN:SK6812_mini-e_rgb_reversible"
+			(at 134.62 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9964,8 +10975,8 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 123.19 59.055 0)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
+			(at 133.35 59.055 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9977,7 +10988,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 125.73 49.53 0)
+			(at 135.89 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10000,9 +11011,9 @@
 			(uuid "c4cc67a1-1580-44e6-92bc-4b871976f831")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678/0b5705a6-92dd-47ca-aedd-78d65c23ceb0"
-					(reference "D11")
+					(reference "LD14")
 					(unit 1)
 				)
 			)
@@ -10019,7 +11030,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e7a9580a-588b-4ff2-8c9f-a1ca3bfe2a11")
-		(property "Reference" "SW8"
+		(property "Reference" "SW5"
 			(at 71.12 128.778 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10080,17 +11091,17 @@
 			(uuid "50ee6f45-23f9-4a74-a478-3962f06baab5")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678/0b5705a6-92dd-47ca-aedd-78d65c23ceb0"
-					(reference "SW8")
+					(reference "SW5")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "SK6812MINI:SK6812MINI")
-		(at 68.58 68.58 0)
+		(lib_id "SK6812:SK6812")
+		(at 78.74 68.58 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -10100,8 +11111,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e8a7b66c-072d-4316-a76a-2e6b1d91c722")
-		(property "Reference" "D14"
-			(at 69.088 62.23 0)
+		(property "Reference" "LD6"
+			(at 79.248 62.23 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10112,7 +11123,7 @@
 			)
 		)
 		(property "Value" "SK6812MINI"
-			(at 68.834 74.93 0)
+			(at 78.994 74.93 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10122,8 +11133,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount"
-			(at 67.31 76.2 0)
+		(property "Footprint" "KoRN:SK6812_mini-e_rgb_reversible"
+			(at 77.47 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10134,8 +11145,8 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 66.04 78.105 0)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
+			(at 76.2 78.105 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10147,7 +11158,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 68.58 68.58 0)
+			(at 78.74 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10170,9 +11181,9 @@
 			(uuid "476cd99d-d4f4-41e1-90d5-04c7a427a29c")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678/0b5705a6-92dd-47ca-aedd-78d65c23ceb0"
-					(reference "D14")
+					(reference "LD6")
 					(unit 1)
 				)
 			)
@@ -10189,7 +11200,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ef5220c8-759c-4d15-8294-1d2e9b246dff")
-		(property "Reference" "D25"
+		(property "Reference" "D4"
 			(at 65.532 117.094 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10273,9 +11284,9 @@
 			(uuid "f39de889-5adc-4bd5-83c3-3ded447d061d")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678/0b5705a6-92dd-47ca-aedd-78d65c23ceb0"
-					(reference "D25")
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -10283,7 +11294,7 @@
 	)
 	(symbol
 		(lib_id "SW_Push:SW_Push")
-		(at 90.17 171.45 0)
+		(at 71.12 171.45 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10292,8 +11303,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f2e21a90-667f-41d8-9179-9892675ffcd6")
-		(property "Reference" "SW19"
-			(at 90.17 166.878 0)
+		(property "Reference" "SW7"
+			(at 71.12 166.878 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10303,7 +11314,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 90.17 166.37 0)
+			(at 71.12 166.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10314,7 +11325,7 @@
 			)
 		)
 		(property "Footprint" "keyswitches:Kailh_socket_PG1350_reversible"
-			(at 90.17 166.37 0)
+			(at 71.12 166.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10325,7 +11336,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 90.17 166.37 0)
+			(at 71.12 166.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10336,7 +11347,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 90.17 171.45 0)
+			(at 71.12 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10353,17 +11364,17 @@
 			(uuid "cf959385-d1d1-4e1a-93f0-d2857939ae55")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678/0b5705a6-92dd-47ca-aedd-78d65c23ceb0"
-					(reference "SW19")
+					(reference "SW7")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "SK6812MINI:SK6812MINI")
-		(at 125.73 87.63 0)
+		(lib_id "SK6812:SK6812")
+		(at 135.89 87.63 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -10373,8 +11384,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f7da2705-571b-49ab-8efe-bbf92b832b37")
-		(property "Reference" "D19"
-			(at 126.238 81.28 0)
+		(property "Reference" "LD16"
+			(at 136.398 81.28 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10385,7 +11396,7 @@
 			)
 		)
 		(property "Value" "SK6812MINI"
-			(at 125.984 93.98 0)
+			(at 136.144 93.98 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10395,8 +11406,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount"
-			(at 124.46 95.25 0)
+		(property "Footprint" "KoRN:SK6812_mini-e_rgb_reversible"
+			(at 134.62 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10407,8 +11418,8 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 123.19 97.155 0)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
+			(at 133.35 97.155 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10420,7 +11431,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 125.73 87.63 0)
+			(at 135.89 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10443,9 +11454,9 @@
 			(uuid "b85fd9d7-3a24-40b9-bdf0-8d7848a7b499")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678/0b5705a6-92dd-47ca-aedd-78d65c23ceb0"
-					(reference "D19")
+					(reference "LD16")
 					(unit 1)
 				)
 			)
@@ -10462,7 +11473,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fb6aa4e5-575d-4413-997d-0f91bb76ba40")
-		(property "Reference" "SW10"
+		(property "Reference" "SW13"
 			(at 109.22 128.778 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10523,9 +11534,9 @@
 			(uuid "14b839a3-fbca-4dfa-a535-2bbcc4ca5e38")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678/0b5705a6-92dd-47ca-aedd-78d65c23ceb0"
-					(reference "SW10")
+					(reference "SW13")
 					(unit 1)
 				)
 			)
@@ -10542,7 +11553,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ff4b0865-0211-488b-a98d-c704c347a430")
-		(property "Reference" "D24"
+		(property "Reference" "D1"
 			(at 46.482 117.094 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10626,9 +11637,9 @@
 			(uuid "b179d768-5249-41d3-afb8-bb4b8330a764")
 		)
 		(instances
-			(project "ErgoGrid-pcb"
+			(project "KoRN"
 				(path "/74a956b4-c88c-4954-9f37-5a65ad3d3678/0b5705a6-92dd-47ca-aedd-78d65c23ceb0"
-					(reference "D24")
+					(reference "D1")
 					(unit 1)
 				)
 			)
